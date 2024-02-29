@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 私货 </title>
+    <link rel="icon" type="images/x-icon" href="../images/YuanXi.ico">
+    <style>
+        /* CSS样式 */
+        .main-container {
+            display: flex;
+            justify-content: center; /* 水平居中 */
+            align-items: center;     /* 垂直居中 */
+            min-height: 100vh;       /* 至少占满整个视口的高度 */
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .video-wrapper {
+            margin-right: 20px;
+            /* 为按钮组提供间隔 */
+        }
+
+        .button-wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* 三列布局 */
+            grid-gap: 10px;
+            /* 网格间隙 */
+        }
+
+        .button-wrapper button {
+            padding: 5px;
+            /* 按钮填充 */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>缘之空</h1>
+    <hr>
+    <div class="container">
+        <div class="video-wrapper">
+            <!-- 视频显示区域 -->
+            <iframe id="videoPlayer" width="800" height="450"
+                src="https://v16m-default.akamaized.net/13e4b0ef8c28f37973688c959b01f4d9/65adffff/video/tos/alisg/tos-alisg-v-0000/o8zeT26OPDvG5ikGcGHfbECf8CgiHJRAwkby3A/?a=2011&ch=0&cr=0&dr=0&net=5&cd=0%7C0%7C0%7C0&br=1678&bt=839&bti=MzhALjBg&cs=0&ds=3&ft=XE5bCqT0mmjPD12EeX5R3wU7C1JcMeF~O5&mime_type=video_mp4&qs=0&rc=NGQ4NjRoN2Y3N2doZWZoNUBpamlsaGg6ZnVnZzMzODYzNEAwYjAuNmA2Ni8xYV8wLi8xYSM1MWItcjRncXBgLS1kMC1zcw%3D%3D&l=20240121231533107C6DE77A860F29E11A&btag=e000a8000"
+                title="缘之空" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="button-wrapper">
+            <!-- 按钮区域 -->
+            <button
+                onclick="playVideo('https://v16m-default.akamaized.net/13e4b0ef8c28f37973688c959b01f4d9/65adffff/video/tos/alisg/tos-alisg-v-0000/o8zeT26OPDvG5ikGcGHfbECf8CgiHJRAwkby3A/?a=2011&ch=0&cr=0&dr=0&net=5&cd=0%7C0%7C0%7C0&br=1678&bt=839&bti=MzhALjBg&cs=0&ds=3&ft=XE5bCqT0mmjPD12EeX5R3wU7C1JcMeF~O5&mime_type=video_mp4&qs=0&rc=NGQ4NjRoN2Y3N2doZWZoNUBpamlsaGg6ZnVnZzMzODYzNEAwYjAuNmA2Ni8xYV8wLi8xYSM1MWItcjRncXBgLS1kMC1zcw%3D%3D&l=20240121231533107C6DE77A860F29E11A&btag=e000a8000')">第一集</button>
+            <button
+                onclick="playVideo('https://v16m-default.akamaized.net/ff8caba900511a71c42e8e5785757fbc/65ae0734/video/tos/alisg/tos-alisg-v-0000/oMAS4f339vWVz4iWmNrAGuBDwohoAFSU6xMAIL/?a=2011&ch=0&cr=0&dr=0&net=5&cd=0%7C0%7C0%7C0&br=1594&bt=797&bti=MzhALjBg&cs=0&ds=3&ft=XE5bCqT0mmjPD124rX5R3wU7C1JcMeF~O5&mime_type=video_mp4&qs=0&rc=aGUzZjg7NzVmODdmOzMzOEBpanQ2ZDY6ZnVnZzMzODYzNEBhYDZhMl5hNmAxMGFiMmAvYSMyY2xfcjRncXBgLS1kMC1zcw%3D%3D&l=202401212346190F8E0D56A660642C8EB8&btag=e000a8000')">第二集</button>
+            <button
+                onclick="playVideo('https://v16m-default.akamaized.net/fea481bec69f0be5d20fe2e14f3e912e/65ae09a2/video/tos/alisg/tos-alisg-v-0000/o8TGDeug4UAN2PJDfX474bSWWADYlCntGIJbMe/?a=2011&ch=0&cr=0&dr=0&net=5&cd=0%7C0%7C0%7C0&br=1518&bt=759&bti=MzhALjBg&cs=0&ds=3&ft=XE5bCqT0mmjPD12j3X5R3wU7C1JcMeF~O5&mime_type=video_mp4&qs=0&rc=Z2g4NDM8ZWhnaTZmNjZkPEBpM3BtO2Y6ZnVnZzMzODYzNEBiXjAtLmEwX14xNWBjMDVeYSNfc2A2cjRncXBgLS1kMC1zcw%3D%3D&l=20240121235640B0B3A0DE9018812DCE01&btag=e000a8000')">第三集</button>
+            <button
+                onclick="playVideo('https://v16m-default.akamaized.net/f9738b7142e71aa26ff4dad17ef27d30/65ae0b43/video/tos/alisg/tos-alisg-v-0000/oksmGvh5vEd2P4oDBV934KwIztAQfASJrAhxGU/?a=2011&ch=0&cr=0&dr=0&net=5&cd=0%7C0%7C0%7C0&br=1418&bt=709&bti=MzhALjBg&cs=0&ds=3&ft=XE5bCqT0mmjPD12xTC5R3wU7C1JcMeF~O5&mime_type=video_mp4&qs=0&rc=ZDY7ZjU3NTVpPDhmNGU3aEBpMzx4bzk6ZnVnZzMzODYzNEBeLS5eYmBfNTYxYS8tY2MxYSNqamFicjRvcXBgLS1kMC1zcw%3D%3D&l=20240122000352896CF67C3257DE2F3EB7&btag=e000a8000')">第四集</button>
+            <button
+                onclick="playVideo('https://v16m-default.akamaized.net/0532f922f407c2cd063f4b2039725b9c/65ae0b68/video/tos/alisg/tos-alisg-v-0000/okDWQGNCWf7DG28byvokJYAgwvAbC3ExEreQen/?a=2011&ch=0&cr=0&dr=0&net=5&cd=0%7C0%7C0%7C0&br=1442&bt=721&bti=MzhALjBg&cs=0&ds=3&ft=XE5bCqT0mmjPD12lTC5R3wU7C1JcMeF~O5&mime_type=video_mp4&qs=0&rc=NWdmNDc1O2c6PDdlODY7NUBpanFqczQ6ZndnZzMzODYzNEAuMjQyX2IyNi0xMGNeMl5hYSNkc2EvcjRvcXBgLS1kMC1zcw%3D%3D&l=20240122000414F34C1FE5FA26332E9111&btag=e000a8000')">第五集</button>
+            <button
+                onclick="playVideo('https://v16m-default.akamaized.net/9613ffed31b0c7d0284f802cfe79c025/65ae0b73/video/tos/alisg/tos-alisg-v-0000/oA2Aly46AO7GNTgGbaeCDe8oRDU4IR84pZ0ebn/?a=2011&ch=0&cr=0&dr=0&net=5&cd=0%7C0%7C0%7C0&br=1248&bt=624&bti=MzhALjBg&cs=0&ds=3&ft=XE5bCqT0mmjPD123SC5R3wU7C1JcMeF~O5&mime_type=video_mp4&qs=0&rc=ODw0PGk5ZWZoNmc5ZjQ3OkBpM3N2dDc6ZnhnZzMzODYzNEAtY2MuYzAvNS8xXl5hLTEzYSNjcl9tcjRncXBgLS1kMC1zcw%3D%3D&l=20240122000440047179B90927802C903C&btag=e000a8000')">第六集</button>
+            <button
+                onclick="playVideo('https://v16m-default.akamaized.net/e2ce3dc1aa837e0626b0b84c1f9d1a45/65ae0ba0/video/tos/alisg/tos-alisg-v-0000/oINmIB9DhE9TRE34ucAPUsL4wSfRAxAGvkzoch/?a=2011&ch=0&cr=0&dr=0&net=5&cd=0%7C0%7C0%7C0&br=1404&bt=702&bti=MzhALjBg&cs=0&ds=3&ft=XE5bCqT0mmjPD12XSC5R3wU7C1JcMeF~O5&mime_type=video_mp4&qs=0&rc=O2hoNjY1ODk0aDo7NDppN0Bpamhodzc6ZnhnZzMzODYzNEAtL2E0Ll8wNTYxYl8vNWNfYSNkNm0ucjRncXBgLS1kMC1zcw%3D%3D&l=20240122000510A5C1A5B54990512C2C19&btag=e000a8000')">第七集</button>
+            <button
+                onclick="playVideo('https://v16m-default.akamaized.net/747a333bf2c4bbcf1e24cf5677fe02c6/65ae0bb8/video/tos/alisg/tos-alisg-v-0000/oEQ4okDeb42eAqnGx8F8bOaUM7eG6DHAgcNXCK/?a=2011&ch=0&cr=0&dr=0&net=5&cd=0%7C0%7C0%7C0&br=1398&bt=699&bti=MzhALjBg&cs=0&ds=3&ft=XE5bCqT0mmjPD12zlC5R3wU7C1JcMeF~O5&mime_type=video_mp4&qs=0&rc=PDppO2Y6ZzY4NjU8NzM1ZEBpMzpmZGk6ZnhnZzMzODYzNEBfLjReMTFjNTUxMWNiXy5gYSMwcGdgcjRncXBgLS1kMC1zcw%3D%3D&l=20240122000534F511E275AEA22F32560F&btag=e000a8000')">第八集</button>
+            <button
+                onclick="playVideo('https://v16m-default.akamaized.net/f7387ccfa3568091b5c48b2c330ccd8d/65ae0bb7/video/tos/alisg/tos-alisg-v-0000/oobbQG7HWK76Fex43JC7oET4AkebDGANehngkD/?a=2011&ch=0&cr=0&dr=0&net=5&cd=0%7C0%7C0%7C0&br=1696&bt=848&bti=MzhALjBg&cs=0&ds=3&ft=XE5bCqT0mmjPD12DlC5R3wU7C1JcMeF~O5&mime_type=video_mp4&qs=0&rc=NGRpZjRoNjhoNzU3OmhnZEBpanU6eDg6ZnhnZzMzODYzNEAxL2BfYGMxX2IxNDBfNTEyYSNpLjIucjRvcXBgLS1kMC1zcw%3D%3D&l=202401220005489AC6820D52D98031869B&btag=e000a8000')">第九集</button>
+            <button
+                onclick="playVideo('https://v16m-default.akamaized.net/f7a367268c6bb6a1c4935b89053e144f/65ae0bd7/video/tos/alisg/tos-alisg-v-0000/ocNv4lDADSChlrAdG6zTgGUBeICe74bANf2GpV/?a=2011&ch=0&cr=0&dr=0&net=5&cd=0%7C0%7C0%7C0&br=1384&bt=692&bti=MzhALjBg&cs=0&ds=3&ft=XE5bCqT0mmjPD120lC5R3wU7C1JcMeF~O5&mime_type=video_mp4&qs=0&rc=Mzc3O2c8Nmc2aDU0aTNnM0BpM214bzk6ZjRnZzMzODYzNEA2LS9eNmJhNi4xMGFfMy41YSNvamFicjRncnBgLS1kMC1zcw%3D%3D&l=20240122000605F43AC99C54A2212B1E2A&btag=e000a8000')">第十集</button>
+            <button
+                onclick="playVideo('https://v16m-default.akamaized.net/3254c17e7e236ed8151a8caa408ceb05/65ae0be6/video/tos/alisg/tos-alisg-v-0000/oYZANzeIUCfND4ENGAO45gGV4RbieA6vhU0CSU/?a=2011&ch=0&cr=0&dr=0&net=5&cd=0%7C0%7C0%7C0&br=1380&bt=690&bti=MzhALjBg&cs=0&ds=3&ft=XE5bCqT0mmjPD12ylC5R3wU7C1JcMeF~O5&mime_type=video_mp4&qs=0&rc=Mzk0aTplMzo8aDo0ZTk3NUBpM3NsaGg6ZjVnZzMzODYzNEAuYmA2Ly5iX14xXzMyYjAuYSNeMWItcjQwcnBgLS1kMC1zcw%3D%3D&l=20240122000620F62B5EE0B974CE28BF50&btag=e000a8000')">第十一集</button>
+            <button
+                onclick="playVideo('https://v16m-default.akamaized.net/dee1bf1a8cac5305bc6ebbeeba216371/65ae0c3f/video/tos/alisg/tos-alisg-v-0000/oUCMbDz4eNNNeLWx4T8zgVFhSTEfIGG1DUAADy/?a=2011&ch=0&cr=0&dr=0&net=5&cd=0%7C0%7C0%7C0&br=1406&bt=703&bti=MzhALjBg&cs=0&ds=3&ft=XE5bCqT0mmjPD12.dC5R3wU7C1JcMeF~O5&mime_type=video_mp4&qs=0&rc=ZTtoOTdkNmU4O2hpN2c3aEBpamw6djc6ZjVnZzMzODYzNEA0LzQuMDQzX2ExLl8vMTEuYSM2X3I2cjRncnBgLS1kMC1zcw%3D%3D&l=20240122000634708445375C926E27A7E7&btag=e000a8000')">第十二集</button>
+        </div>
+    </div>
+
+    <script>
+        function playVideo(videoUrl) {
+            document.getElementById("videoPlayer").src = videoUrl;
+        }
+    </script>
+
+</body>
+
+</html>

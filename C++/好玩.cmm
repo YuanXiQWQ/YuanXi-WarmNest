@@ -1,0 +1,34 @@
+#吾有<交流术>
+#吾有<文法>
+谓之 准则
+立数 因() {
+   示之 << "Hello?";
+   立文 用户输入;
+   得之 >> 予 用户输入;
+   若 (用户输入 同 "Hello"){
+         示之 << "Hello!";
+      }亦 (用户输入 同 "Goodbye" 亦或 "古德拜"){
+         示之 << "Goodbye!";
+      }余等{
+         谓终；
+      }
+   谓终;
+}
+
+#Translation#
+#include<iostream>
+#include<string>
+usingnamespace::std
+int main() {
+   cout << " Hello?";
+   string UserInPut;
+   cin >> UserInPut;
+   if (UserInPut == "Hello") {
+      cout << "Hello!";
+   } else if (UserInPut == "Goodbye" || "古德拜") {
+      cout << "Goodbye!";
+   } else {
+      return 0;
+   }
+   return 0;
+}
