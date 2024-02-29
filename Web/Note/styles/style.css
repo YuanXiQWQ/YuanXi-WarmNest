@@ -1,0 +1,27 @@
+#red {
+    color: red;
+}
+
+#purple {
+    color: purple;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+    /* 这应该是你从 Google Fonts 得到的其余输出。 */
+}
+
+h1 {
+    /*h1-h6是不同分级的标题*/
+    font-size: 60px;
+    /*标准字号教材说是10px，但我总感觉是20px*/
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1;
+    /*行间距，默认是2*/
+    letter-spacing: 1px;
+    /*字间距，默认是1px*/
+}
