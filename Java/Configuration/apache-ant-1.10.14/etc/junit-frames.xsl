@@ -882,8 +882,8 @@ h6 {
 </xsl:template>
 
 
-<!-- Note : the below template skipped, error and failure are the same style
-            so just call the same style store in the toolkit template -->
+<!-- Note : the below template skipped, error and failure are the same styles
+            so just call the same styles store in the toolkit template -->
 <xsl:template match="failure">
     <xsl:call-template name="display-failures"/>
 </xsl:template>

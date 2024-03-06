@@ -280,7 +280,7 @@
 
 
     <!-- 
-    Generates the JavaScript for the dynamic style. 
+    Generates the JavaScript for the dynamic styles.
     Generated so this XSL is the single source of the whole report.
     -->
     <xsl:template name="switch.js">

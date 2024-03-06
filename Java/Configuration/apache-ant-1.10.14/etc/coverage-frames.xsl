@@ -474,7 +474,7 @@
     <LINK REL ="stylesheet" TYPE="text/css" TITLE="Style"><xsl:attribute name="href"><xsl:if test="not($package.name = 'unnamed package')"><xsl:call-template name="path"><xsl:with-param name="path" select="$package.name"/></xsl:call-template></xsl:if>stylesheet.css</xsl:attribute></LINK>
 </xsl:template>
 
-<!-- alternated row style -->
+<!-- alternated row styles -->
 <xsl:template name="alternate-row">
 <xsl:attribute name="class">
   <xsl:if test="position() mod 2 = 1">a</xsl:if>
