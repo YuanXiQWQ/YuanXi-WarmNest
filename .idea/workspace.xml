@@ -25,8 +25,123 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab322eb-ba87-4532-93d4-ef3d67c3fcea" name="更改" comment="没干啥">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/.idea/Comp1510.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/.idea/libraries/Jiarui_Xing_assign_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/.idea/libraries/checkstyle_10_12_3_all.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/.idea/libraries/dist.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/Assignment_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/Comp1510CheckstyleAssn1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/Jiarui,Xing-assign-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/Temple/Temple.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/checkstyle-noframes-sorted.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/dist/q1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/dist/q2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/dist/q3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/dist/q4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/dist/run.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/dist/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/docs/JavaDocs Created Here.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/lib/checkstyle-10.12.3-all.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/reports/reports.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/reports/results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/reports/styleResult.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/src/q1/Change.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/src/q2/Sqrt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/src/q3/Reverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/src/q4/Pack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Assignment_1/src/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab02XingJ/Comp1510Lab02XingJ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab02XingJ/src/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab02XingJ/src/Paint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab02XingJ/src/Students.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab02XingJ/src/ca/bcit/comp1510/lab02/BaseConvert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab02XingJ/src/ca/bcit/comp1510/lab02/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab02XingJ/src/ca/bcit/comp1510/lab02/Paint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab02XingJ/src/ca/bcit/comp1510/lab02/Students.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab03XingJ/Comp1510Lab03XingJ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab03XingJ/src/ca/bcit/comp1510/lab03/BaseConvert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab03XingJ/src/ca/bcit/comp1510/lab03/CardGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab03XingJ/src/ca/bcit/comp1510/lab03/Dice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab03XingJ/src/ca/bcit/comp1510/lab03/Distance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab03XingJ/src/ca/bcit/comp1510/lab03/FunWithStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab04XingJ/Comp1510Lab04XingJ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab04XingJ/src/ca/bcit/comp1510/lab04/IntegerWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab04XingJ/src/ca/bcit/comp1510/lab04/MultiDie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab04XingJ/src/ca/bcit/comp1510/lab04/Name.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab04XingJ/src/ca/bcit/comp1510/lab04/NameDrive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab04XingJ/src/ca/bcit/comp1510/lab04/RollingMultiDice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab04XingJ/src/ca/bcit/comp1510/lab04/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab05XingJ/Comp1510Lab05XingJ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab05XingJ/src/ca/bcit/comp1510/lab05/Cone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab05XingJ/src/ca/bcit/comp1510/lab05/Cube.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab05XingJ/src/ca/bcit/comp1510/lab05/GeometryDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab05XingJ/src/ca/bcit/comp1510/lab05/Mathematics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab05XingJ/src/ca/bcit/comp1510/lab05/Mathematics2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab05XingJ/src/ca/bcit/comp1510/lab05/MathematicsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab05XingJ/src/ca/bcit/comp1510/lab05/Name.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab05XingJ/src/ca/bcit/comp1510/lab05/NameDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab05XingJ/src/ca/bcit/comp1510/lab05/Sphere.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab06XingJ/Comp1510Lab06XingJ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab06XingJ/src/ca/bcit/comp1510/lab06/BaseballStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab06XingJ/src/ca/bcit/comp1510/lab06/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab06XingJ/src/ca/bcit/comp1510/lab06/Mathematics2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab06XingJ/src/ca/bcit/comp1510/lab06/Name.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab06XingJ/src/ca/bcit/comp1510/lab06/NameDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab06XingJ/src/ca/bcit/comp1510/lab06/stats.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab06XingJ/src/ca/bcit/comp1510/lab06/stats2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab07XingJ/Comp1510Lab07XingJ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1510/Comp1510Lab07XingJ/src/ca/bcit/comp1510/lab07/DebugStar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_1/images/fox_minecraft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_1/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_1/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_1/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_2/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_2/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/Base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/Beacon.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/Block_of_Redstone.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/Enchanting_Table.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/Ender_Pearl.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/Eye_of_Ender.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/Information1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/Information2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/Inventory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/Lodestone_Compass.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/Map.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/Standing_Scaffolding.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/Written_Book.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/YuanXi.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/images/logo-minecraft.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_3/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/images/YuanXi.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/images/fox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/scripts/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/text/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/text/navbarAfterLogin copy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/text/navbarBeforeLogin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Git,GitHub/OthersRepos/gitkraken-chinese/strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/OthersRepos/gitkraken-chinese/strings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +160,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/BCIT/Comp1800/BBY26" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -78,7 +193,7 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2cQfNCTnjDoRlpqa7sLvNrTvmT6" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -86,54 +201,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "CMake 应用程序.YuanXi_sWarmNest.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JAR 应用程序.1.19.4.jar.executor": "Run",
-    "JUnit.Mathematics2Test.executor": "Run",
-    "JUnit.MathematicsTest.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "R:/YuanXi-WarmNest",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.BaseballStats.executor": "Run",
-    "应用程序.Boolean.executor": "Run",
-    "应用程序.Factorial.executor": "Run",
-    "应用程序.GeometryDriver.executor": "Run",
-    "应用程序.NameDriver.executor": "Run",
-    "应用程序.Person.executor": "Run",
-    "应用程序.Point.executor": "Run",
-    "应用程序.Student1.executor": "Run",
-    "应用程序.TestThis.executor": "Run",
-    "应用程序.User.executor": "Run",
-    "应用程序.test.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;CMake 应用程序.YuanXi_sWarmNest.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JAR 应用程序.1.19.4.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Mathematics2Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MathematicsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;R:/YuanXi-WarmNest&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.BaseballStats.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Boolean.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.GeometryDriver.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.NameDriver.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Person.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Point.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Student1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.TestThis.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.User.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.test.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="R:\YuanXi-sWarmNest\Java\Project" />
@@ -185,6 +300,8 @@
       <workItem from="1709683228340" duration="88000" />
       <workItem from="1709688863251" duration="666000" />
       <workItem from="1709695678096" duration="654000" />
+      <workItem from="1709756105361" duration="722000" />
+      <workItem from="1709756839917" duration="8591000" />
     </task>
     <task id="LOCAL-00001" summary="没干啥">
       <option name="closed" value="true" />

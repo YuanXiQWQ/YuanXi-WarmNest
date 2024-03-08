@@ -5,6 +5,6 @@
     <mapping directory="$PROJECT_DIR$/BCIT" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/BCIT/Comp1800/BBY26" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Git,GitHub/OthersRepos/gitkraken-chinese" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Java/Project/GitKraken-AutoTranslator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Java/Project/GitKraken-AutoTranslator" vcs="" />
   </component>
 </project>
