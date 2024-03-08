@@ -1,5 +1,5 @@
 /*---------- Accordion ----------*/
-// Document ready function to ensure the script runs after the DOM is fully loaded.
+// Document ready function to ensure the scripts runs after the DOM is fully loaded.
 $(document).ready(function(){
 
   // Click event handler for the accordion.

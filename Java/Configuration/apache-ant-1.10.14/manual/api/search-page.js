@@ -140,7 +140,7 @@ $(window).on("load", function() {
                 if (result.length > 20 && categoryCount > 1) {
                     var button = $("<button id='result-tab-" + key
                         + "' class='page-search-header'><span>" + categories[key] + "</span>"
-                        + "<span style='font-weight: normal'> (" + count + ")</span></button>").appendTo(tabContainer);
+                        + "<span styles='font-weight: normal'> (" + count + ")</span></button>").appendTo(tabContainer);
                     button.click(key, function(e) {
                         fixedTab = true;
                         renderResult(e.data, $(this));
@@ -148,7 +148,7 @@ $(window).on("load", function() {
                     visibleTabs.push(key);
                 } else {
                     $("<span class='page-search-header active-table-tab'>" + categories[key]
-                        + "<span style='font-weight: normal'> (" + count + ")</span></span>").appendTo(tabContainer);
+                        + "<span styles='font-weight: normal'> (" + count + ")</span></span>").appendTo(tabContainer);
                     renderTable(key, r[key]).appendTo(resultContainer);
                     tabContainer = $("<div class='table-tabs'></div>").appendTo(resultContainer);
 

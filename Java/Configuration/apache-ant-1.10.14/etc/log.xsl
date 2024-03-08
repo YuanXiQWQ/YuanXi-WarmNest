@@ -187,7 +187,7 @@
 <!-- report every message but those with debug priority -->
 <xsl:template match="message[@priority!='debug']">
   <tr valign="top">
-    <!-- alternated row style -->
+    <!-- alternated row styles -->
     <xsl:attribute name="class">
       <xsl:if test="position() mod 2 = 1">a</xsl:if>
       <xsl:if test="position() mod 2 = 0">b</xsl:if>

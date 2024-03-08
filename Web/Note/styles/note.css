@@ -7,12 +7,12 @@
     */
 
 /* 内部CSS
-        HTML表达方式:在<head>标签中加入 <style>
-        CSS表达方式:在HTML <style>标签中放入CSS代码
+        HTML表达方式:在<head>标签中加入 <styles>
+        CSS表达方式:在HTML <styles>标签中放入CSS代码
     */
 
 /* 内联CSS(已过时)
-    HTML表达方式:在元素后面添加sytle属性 <元素 style="CSS代码">
+    HTML表达方式:在元素后面添加sytle属性 <元素 styles="CSS代码">
     */
 
 /* 定义冲突: 对同一个选择器定义了不同的样式 */
@@ -22,7 +22,7 @@ h1 {
     /* 对应下面的h1选择器,字体最终会是白色而不是黑色 */
 }
 
-/* 内部与外部定义冲突: 对HTML内通过<style>定义的样式与外部定义冲突,将使用外部的样式的值 */
+/* 内部与外部定义冲突: 对HTML内通过<styles>定义的样式与外部定义冲突,将使用外部的样式的值 */
 
 /* 内联CSS: 对任何定义有冲突, 将显示内联样式的值 */
 
@@ -290,7 +290,7 @@ h2#margin {
     text-decoration-thickness: 5px;
     /* 文本装饰厚度 */
     text-decoration: underline red double 5px;
-    /* 文本装饰简写,顺序为line,colour,style,thickness;ine位置(第一个位置)是必填的,其它可选 */
+    /* 文本装饰简写,顺序为line,colour,styles,thickness;ine位置(第一个位置)是必填的,其它可选 */
     text-decoration: none;
     /* 可以去掉超链接的下划线 */
     text-transform: capitalize;
@@ -319,7 +319,7 @@ h2#margin {
     /* 1em=16px=默认大小 */
     /* 字体大小(em=像素/16,使用em可以方便用户在浏览器菜单中调整文本大小，vm=视口宽度,文本将会随着浏览器窗口的大小变化) */
     font: 20px Arial, sans-serif;
-    /* 全部属性简写，font:font-style font-variant font-weight font-size/line-height font-family; font-size: 20px;*/
+    /* 全部属性简写，font:font-styles font-variant font-weight font-size/line-height font-family; font-size: 20px;*/
 }
 
 /* CSS链接 */
@@ -352,23 +352,23 @@ a:active {
 }
 
 /* 指针悬停光标属性 */
-/*  style="cursor:auto"自动
-        style="cursor:crosshair"十字光标
-        style="cursor:default"默认光标
-        style="cursor:help"帮助光标(默认光标的右下角加个问号)
-        style="cursor:move"移动光标(十字箭头)
-        style="cursor:n-resize"上下调整大小光标(上下箭头)
-        style="cursor:s-resize"上下调整大小光标(上下箭头)
-        style="cursor:e-resize"左右调整大小光标(左右箭头)
-        style="cursor:w-resize"左右调整大小光标(左右箭头)
-        style="cursor:ne-resize"右上角调整大小光标(右上左下箭头)
-        style="cursor:se-resize"右下角调整大小光标(右上左下箭头)
-        style="cursor:nw-resize"左上角调整大小光标(左上右下箭头)
-        style="cursor:sw-resize"左下角调整大小光标(左上右下箭头)
-        style="cursor:pointer"小手指光标
-        style="cursor:text"输入文本时的样式
-        style="cursor:wait"等待光标(蓝色圆圈)
-        style="cursor:progress"加载光标(默认光标右边加个蓝色圆圈)
+/*  styles="cursor:auto"自动
+        styles="cursor:crosshair"十字光标
+        styles="cursor:default"默认光标
+        styles="cursor:help"帮助光标(默认光标的右下角加个问号)
+        styles="cursor:move"移动光标(十字箭头)
+        styles="cursor:n-resize"上下调整大小光标(上下箭头)
+        styles="cursor:s-resize"上下调整大小光标(上下箭头)
+        styles="cursor:e-resize"左右调整大小光标(左右箭头)
+        styles="cursor:w-resize"左右调整大小光标(左右箭头)
+        styles="cursor:ne-resize"右上角调整大小光标(右上左下箭头)
+        styles="cursor:se-resize"右下角调整大小光标(右上左下箭头)
+        styles="cursor:nw-resize"左上角调整大小光标(左上右下箭头)
+        styles="cursor:sw-resize"左下角调整大小光标(左上右下箭头)
+        styles="cursor:pointer"小手指光标
+        styles="cursor:text"输入文本时的样式
+        styles="cursor:wait"等待光标(蓝色圆圈)
+        styles="cursor:progress"加载光标(默认光标右边加个蓝色圆圈)
     */
 
 /* CSS列表 */
@@ -439,7 +439,7 @@ tr:nth-child(even) {
 }
 
 /* 响应式表格
-        属性 style="overflow-x:auto;" 可以让表格在宽度超出时显示水平滚动条(-y是垂直),可以使用带属性的 div 元素把table元素包起来
+        属性 styles="overflow-x:auto;" 可以让表格在宽度超出时显示水平滚动条(-y是垂直),可以使用带属性的 div 元素把table元素包起来
     */
 
 /* CSS布局 */

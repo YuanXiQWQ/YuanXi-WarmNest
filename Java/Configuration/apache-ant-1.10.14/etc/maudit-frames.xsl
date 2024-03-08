@@ -490,7 +490,7 @@
     </tr>
 </xsl:template>
 
-<!-- alternated row style -->
+<!-- alternated row styles -->
 <xsl:template name="alternate-row">
 <xsl:attribute name="class">
   <xsl:if test="position() mod 2 = 1">a</xsl:if>
