@@ -25,7 +25,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab322eb-ba87-4532-93d4-ef3d67c3fcea" name="更改" comment="没干啥">
-      <change beforePath="$PROJECT_DIR$/.idea/YuanXi-WarmNest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/YuanXi-WarmNest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/Note/scripts/note.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Note/scripts/note.js" afterDir="false" />
     </list>
@@ -205,7 +204,7 @@
       <workItem from="1709929797238" duration="4607000" />
       <workItem from="1709938614397" duration="10594000" />
       <workItem from="1710021879292" duration="3808000" />
-      <workItem from="1710368947187" duration="6151000" />
+      <workItem from="1710368947187" duration="10858000" />
     </task>
     <task id="LOCAL-00001" summary="没干啥">
       <option name="closed" value="true" />
