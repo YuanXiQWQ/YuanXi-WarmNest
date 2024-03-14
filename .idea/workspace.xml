@@ -25,10 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab322eb-ba87-4532-93d4-ef3d67c3fcea" name="更改" comment="没干啥">
+      <change beforePath="$PROJECT_DIR$/.idea/YuanXi-WarmNest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/YuanXi-WarmNest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git,GitHub/GitKraken-AutoTranslator/Translator.html" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/GitKraken-AutoTranslator/Translator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git,GitHub/GitKraken-AutoTranslator/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/GitKraken-AutoTranslator/scripts/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git,GitHub/GitKraken-AutoTranslator/scripts/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/GitKraken-AutoTranslator/scripts/translate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Note/scripts/note.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Note/scripts/note.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Git,GitHub/OthersRepos/gitkraken-chinese" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -101,6 +100,7 @@
     "JAR 应用程序.1.19.4.jar.executor": "Run",
     "JUnit.Mathematics2Test.executor": "Run",
     "JUnit.MathematicsTest.executor": "Run",
+    "Node.js.note.js.executor": "Debug",
     "Node.js.openai-test.js.executor": "Run",
     "Node.js.script.js.executor": "Debug",
     "Node.js.translate.js.executor": "Run",
@@ -114,8 +114,8 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "16.14.0",
-    "javascript.nodejs.core.library.typings.version": "16.18.87",
+    "javascript.nodejs.core.library.configured.version": "20.11.1",
+    "javascript.nodejs.core.library.typings.version": "20.11.27",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "R:/YuanXi-WarmNest/Git,GitHub/GitKrakenAutoTranslator",
@@ -203,7 +203,9 @@
       <workItem from="1709870069501" duration="1550000" />
       <workItem from="1709874101560" duration="4653000" />
       <workItem from="1709929797238" duration="4607000" />
-      <workItem from="1709938614397" duration="9763000" />
+      <workItem from="1709938614397" duration="10594000" />
+      <workItem from="1710021879292" duration="3808000" />
+      <workItem from="1710368947187" duration="6151000" />
     </task>
     <task id="LOCAL-00001" summary="没干啥">
       <option name="closed" value="true" />
