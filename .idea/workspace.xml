@@ -25,7 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab322eb-ba87-4532-93d4-ef3d67c3fcea" name="更改" comment="没干啥">
+      <change afterPath="$PROJECT_DIR$/Web/Note/scripts/note.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/Project/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Project/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/Note/scripts/note.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Note/scripts/note.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +119,7 @@
     "javascript.nodejs.core.library.typings.version": "20.11.27",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "R:/YuanXi-WarmNest/Git,GitHub/GitKrakenAutoTranslator",
+    "last_opened_file_path": "R:/YuanXi-WarmNest",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -127,7 +129,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.sourceCode.CSS",
+    "settings.editor.selected.configurable": "advanced.settings",
     "ts.external.directory.path": "R:\\WebStorm\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true",
     "应用程序.BaseballStats.executor": "Run",
@@ -205,6 +207,16 @@
       <workItem from="1709938614397" duration="10594000" />
       <workItem from="1710021879292" duration="3808000" />
       <workItem from="1710368947187" duration="10858000" />
+      <workItem from="1710442808224" duration="1827000" />
+      <workItem from="1710460424809" duration="17000" />
+      <workItem from="1710460452658" duration="76000" />
+      <workItem from="1710461209161" duration="706000" />
+      <workItem from="1710461932143" duration="1055000" />
+      <workItem from="1710462994981" duration="845000" />
+      <workItem from="1710463883766" duration="18000" />
+      <workItem from="1710463908482" duration="129000" />
+      <workItem from="1710464046756" duration="119000" />
+      <workItem from="1710464175472" duration="5796000" />
     </task>
     <task id="LOCAL-00001" summary="没干啥">
       <option name="closed" value="true" />
