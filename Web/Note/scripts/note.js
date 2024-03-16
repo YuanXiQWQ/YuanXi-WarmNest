@@ -123,7 +123,7 @@
 {
 //对象
     {
-        const obj = Object;
+        let obj = Object;
         obj.name = "MUTT";
         obj.age = 18;
         obj.male = true;
@@ -138,8 +138,8 @@
         console.log(obj);
 
         /*字面量创建对象*/
-        const obj0 = {};
-        const obj1 = {name: "鸟", age: 18, male: true}
+        let obj0 = {};
+        let obj1 = {name: "鸟", age: 18, male: true}
 
         /*枚举对象的属性值*/
         for (let a in obj) {
@@ -154,7 +154,7 @@
     }
 
 //参数a = 1是默认值,当没有给参数的时候,a = 1,给后a = 参数
-    const factorial = function (a = 1) {
+    let factorial = function (a = 1) {
         if (a === 1) {
             return 1;
         } else {
@@ -162,7 +162,7 @@
         }
     }
 
-    const func2 = (a, b) => {
+    let func2 = (a, b) => {
         alert(a * b);
     }
 
@@ -240,7 +240,7 @@
         }
     }
 
-    const MUTT = new Person("MUTT", 18, "male");
+    let MUTT = new Person("MUTT", 18, "male");
     console.log(MUTT);
 }
 {
@@ -405,7 +405,7 @@
     }
 
     //调用
-    const newFunction = outer();
+    let newFunction = outer();
 
     //执行十次
     for (let i = 0; i < 10; i++) {
@@ -484,30 +484,30 @@
         console.log(a, b, c, d);
     }
 
-    const obj = {name: "MUTT"};
-    const obj2 = {name: "TT"};
+    let obj = {name: "MUTT"};
+    let obj2 = {name: "TT"};
 
-    const newFunc = testBind.bind(obj, 1, 2, 3, 4);
+    let newFunc = testBind.bind(obj, 1, 2, 3, 4);
 
     newFunc.call(obj2, 5, 6, 7, 8);
 
-    const arrowFunc = (a, b, c, d) => {
+    let arrowFunc = (a, b, c, d) => {
         console.log(this);
         console.log(a, b, c, d);
     }
-    const newArrowFunc = arrowFunc.bind(obj, 1, 2, 3, 4);
+    let newArrowFunc = arrowFunc.bind(obj, 1, 2, 3, 4);
     newArrowFunc.call(obj2, 5, 6, 7, 8);
 }
 {
     //解构赋值
     /*解构数组*/
-    const arr = [1, 2, 3, 4, 5];
-    const [a, b, ...rest] = arr;
+    let arr = [1, 2, 3, 4, 5];
+    let [a, b, ...rest] = arr;
     console.log(a, b, rest);
 
     /*解构对象*/
-    const obj = {a: 1, b: 2, c: 3};
-    const {a: aa, b: bb, c: cc} = obj;
+    let obj = {a: 1, b: 2, c: 3};
+    let {a: aa, b: bb, c: cc} = obj;
     console.log(aa, bb, cc);
 
     /*交换位置*/
@@ -526,13 +526,13 @@
     *   使用JSON.stringify()方法把JS对象转换为字符串
     *   使用JSON.parse()方法把字符串转换为JS对象
     * */
-    const obj = {
+    let obj = {
         name: "MUTT", age: 18
     };
-    const str = JSON.stringify(obj);
+    let str = JSON.stringify(obj);
     console.log(str);
 
-    const obj2 = JSON.parse(str);
+    let obj2 = JSON.parse(str);
     console.log(obj2);
 
     console.log(obj === obj2);
@@ -551,8 +551,8 @@
     *       JSON数组(Array[])
     *   4.JSON的格式和JS的格式基本一致,但是JSON更严格
     * */
-    const str1 = '{"name": "MUTT", "age": 18}';
-    const obj3 = JSON.parse(str1);
+    let str1 = '{"name": "MUTT", "age": 18}';
+    let obj3 = JSON.parse(str1);
     console.log(obj3);
 }
 {
@@ -562,5 +562,402 @@
     Map和Object的主要区别:
         Object中的属性名只能说字符串或符号,如果传递了一个其他类型的属性名,JS解释器会自动将其转换为字符串
         Map中任何类型的值都可以成为数据的key
+    创建:
+        new Map()
+    属性方法:
+        map.size()              获取map键值对数量
+        map.set(key, value)     添加键值对
+        map.get(key)            获取key对应的value
+        map.delete(key)         删除key对应的键值对
+        map.clear()             清除所有键值对
+        map.has(key)            判断key是否存在
+        map.keys()              返回键名
+        map.values()            返回键值
+        map.entries()           返回键值对
     * */
+    let obj = {
+        name: "MUTT", age: 18
+    };
+    let testMap = new Map();
+    //传入值:键名,键值
+    testMap.set("name", "MUTT");
+    testMap.set(obj, "Student");
+    testMap.set("male", true);
+    console.log(testMap.get("name"));
+    console.log(testMap.get(obj));
+    console.log(testMap.get("male"));
+    console.log(testMap);
+
+    /*使用Map创建数组
+    * 可以用来解构并遍历Map中特定元素(如只遍历键值)
+    * */
+    //使用Array.from()方法
+    let testMapToArray = Array.from(testMap);
+    //或者展开
+    let testMapToArraySimple = [...testMap];
+    console.log(testMapToArray);
+
+    /*遍历Map*/
+    for (let entry of testMapToArray) {
+        //打印键名和键值
+        console.log(entry);
+
+        //解构
+        let [key, value] = entry;
+        //只打印键值
+        console.log(value);
+    }
+    //或者
+    testMapToArraySimple.forEach((value, key) => {
+        console.log(key);
+    });
+}
+{
+    //Set
+    /*用来创建一个集合,功能和数组类似,不同在于:
+        Set不嫩存储重复的数据
+      本质和Map相同,只是键和键值相同
+    *创建:
+        new Set()
+        new Set([value1, value2, ...])
+    *方法:
+        set.add(value)      添加元素
+        set.delete(value)   删除元素
+        set.clear()         清空
+        set.has(value)      判断是否存在
+        set.keys()          返回键名
+        set.values()        返回键值
+        set.entries()       返回键值对
+    * */
+    let testSet = new Set();
+    testSet.add("MUTT");
+    testSet.add("鸟");
+    testSet.add("MUTT");
+    testSet.add(1);
+    testSet.add(1);
+    testSet.add(1);
+    console.log(testSet);
+    //只会存储{"MUTT", "鸟", 1}
+
+    /*Set没有索引方法,需要提取特定值,可以先转换为数组后再找*/
+    let array = Array.from(testSet);
+    console.log(array[0]);
+
+    /*使用Set为数组去重*/
+    let array1 = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5, 8, 9, 7, 9, 3, 2, 3, 8, 4, 6, 2, 6]
+    let setOfArray1 = new Set(array1);
+    console.log(setOfArray1); //此时输出为集合
+    //转换为数组
+    console.log(...setOfArray1)
+}
+{
+    //Math
+    /*数学计算方法
+    常量:
+        Math.E              自然对数底
+        Math.PI             圆周率π
+        Math.SQRT2          根号2
+        Math.SQRT1_2        根号1/2
+        Math.LN2            ln2
+        Math.LN10           ln10
+        Math.LOG2E          log2e
+        Math.LOG10E         log10e
+     方法:
+        Math.abs(x)         绝对值
+        Math.random()       0-1之间的伪随机浮点数
+        Math.ceil(x)        向上取整
+        Math.floor(x)       向下取整
+        Math.round(x)       四舍五入
+        Math.trunc(x)       截断,直接去除小数位
+        Math.min(x, y)      最小值
+        Math.max(x, y)      最大值
+        Math.sqrt(x)        开平方
+        Math.cbrt(x)        开立方
+        Math.pow(x, y)      幂运算
+        Math.log(x)         对数
+        Math.log2(x)        二进制
+        Math.log10(x)       十进制
+        Math.exp(x)         指数
+        Math.sin(x)         正弦
+        Math.cos(x)         余弦
+        Math.tan(x)         正切
+        Math.asin(x)        逆正弦
+        Math.acos(x)        逆余弦
+        Math.atan(x)        逆正切
+        Math.atan2(y, x)    逆正切
+        Math.sinh(x)        正双曲
+        Math.cosh(x)        余双曲
+        Math.tanh(x)        正切双曲
+        Math.asinh(x)       逆正双曲
+        Math.acosh(x)       逆余双曲
+        Math.atanh(x)       逆正切双曲
+    * */
+}
+{
+    //Date
+    /*JS中所有和时间相关的数据都由Date对象
+    方法:
+        getFullYear()       获取四位数的年份(加上"20"),如:2004
+        getMonth()          获取月份的索引(0-11),0是一月,11是十二月
+        getDate()           获取日期,如:4
+        getDay()            获取星期的索引(0-6),0是星期天
+        getHours()          获取小时数,如:14
+        getMinutes()        获取分钟数,如:25
+        getSeconds()        获取秒数,如:45
+        getMilliseconds()   获取毫秒数,如:567
+        getTime()           获取时间戳（毫秒数）,如:1136214245000
+            时间戳:1970年1月1日0时0分0秒到现在的毫秒数
+        Date.now()          获取当前时间戳（毫秒数）
+    *
+    * */
+    //直接通过new Date()创建的对象,显示是创建改实例的一刻(代码执行时)的时间
+    let date = new Date();
+    console.log(date);
+
+    //  可以在Date()的构造函数中传递一个表示时间的字符串
+    //  数值格式:年,月,日,时,分,秒
+    date = new Date(2004, 3, 4, 0, 0, 0);
+    //  时间戳格式
+    date = new Date(1136214245000);
+    //  字符串的格式(不推荐,可能产生格式问题):"月/日/年 时:分:秒"
+    date = new Date("03/04/2004");
+
+    /*日期的格式化*/
+    //将日期转换为本地字符串
+    //转换时间日期
+    let toLocal = date.toLocaleString();
+    //转换时间
+    toLocal = date.toLocaleTimeString();
+    //转换日期
+    toLocal = date.toLocaleDateString();
+    console.log(toLocal);
+
+    /*toLocaleString()
+    *  参数:
+    *   1. 描述语言和国家信息的字符串
+    *       zh-CN: 简体中文
+    *       zh-TW: 繁体中文
+    *       zh-HK: 香港中文(香港在使用一些异体字)
+    *       en-US: 美式英语
+    *       ru-RU: 俄语
+    *       en-UK: 英语
+    *       fr-FR: 法语
+    *   2. 需要一个对象作为参数,在对象中可以通过对象的属性来对日期的格式进行配置
+    *       dateStyle: 日期的格式
+    *       timeStyle: 时间的格式
+    *           full,如:
+    *           long,如:         2004年3月4日 GMT+8 0:0:0
+    *           medium,如:       3/4/2004 0:0:0
+    *           short,如:        3/4/04 0:0
+    *       hour12: 12小时制
+    *           true: 12小时制
+    *           false: 24小时制
+    *       weekday: 星期的显示方式
+    *           long,如: 星期二
+    *           short,如: 周二
+    *           narrow,如: 二
+    * */
+    toLocal = date.toLocaleString("zh-CN", {dateStyle: "full", timeStyle: "long"});
+    console.log(toLocal);
+}
+{
+    //包装类
+    /*在JS中,除了直接创建原始值外,还可以创建原始值的对象
+      通过new方法:
+        new String();
+        new Number();
+        new Boolean();
+      JS共有5个包装类:
+        String
+        Number
+        Boolean
+        BigInt
+        Symbol
+      通过包装类可以将一个原始值包装为一个对象,当对一个原始值调用方法或属性时,
+        JS解释器会临时将原始值包装为对应的对象,然后调用这个对象的属性或方法.
+    * */
+    let a = 1;
+    a = a.toString()
+    //a是原始值,原始值本来不包含方法,但是JS解释器会把a暂时地包装成为一个类并调用方法.
+    //包装类正常情况下不会用到,一般是JS解释器在编译时候自己用的.
+}
+{
+    //字符串方法
+    /*字符串
+        本质是一个字符数组,但是**字符串一旦创建便不可变**
+        "hello" --> ["h", "e", "l", "l", "o"]
+        所以字符串的很多方法和数组类似
+      属性和方法:
+        .length()获取字符串的长度
+        [索引]获取指定位置的字符
+        .at()跟[索引]一样,但是可以接受负值
+        .charAt()一样,不支持负值
+        .includes()检查字符串中是否包含指定的字符,返回布尔值
+        .startsWith()检查字符串是否以指定的字符串开头
+        .endsWith()检查字符串是否以指定的字符串结尾
+        .repeat()重复指定的次数
+        .indexOf()检查字符串中是否包含指定的字符
+        .lastIndexOf()检查字符串中是否包含指定的字符
+        .padStart()在指定的长度之前填充指定的字符
+            参数: 字符要保持的长度,(可选,默认空格)占位符
+        .padEnd()在指定的长度之后填充指定的字符
+    * */
+}
+{
+    //正则表达式
+    /*正确规则表达式(傻逼翻译),用来定义一个字符串规则
+    * 是一个对象
+    * 创建:
+    *   1.构造函数
+    *       new RegExp();
+    *           参数
+    *             字符串规则
+    *             匹配模式
+    *   2.字面量创建
+    *       let regular = /正则表达式/匹配模式
+    * 如果需要动态指定规则,可以使用构造函数;如果要简洁,可以使用字面量,但是规则就是定死的
+    * 方法:
+    *   .test()检查是否符合规则
+    *   .exec()检查是否符合规则，返回数组，数组的第一个元素是匹配的内容，第二个元素是匹配的index
+    * 符号:
+    *       &       与
+    *       |       或
+    *       []      字符集,匹配括号里面的任意字符
+    *           [abcdefghigk]   匹配括号里面的任意字符
+    *           [a-z]           匹配a到z里面的任意字符
+    *           [a-zA-Z]        匹配a到z和A到Z里面的任意字符
+    *           /[a-z]/i        匹配a到z里面的任意字符，忽略大小写
+    *           [^a-z]          匹配除了a到z里面的任意字符
+    *       . 除了空白字符以外的任意字符
+    *       \ 转义符
+    *           \d              匹配任意数字
+    *           \D              匹配任意非数字
+    *           \w              匹配任意单词字符([A-Za-z0-9_])
+    *           \W              匹配任意非单词字符
+    *           \s              匹配任意空白字符
+    *           \S              匹配任意非空白字符
+    *       ^       匹配字符串的开头，如^a表示字符串必须以a开头
+    *       $       匹配字符串的结尾,如a$表示字符串在a后就没有任何字符了
+    *       ^内容$   完全匹配,如^a$表示字符串必须是a
+    * 量词:
+    *       a{3}       a至少出现三次
+    *       ^a{3}$     只有三个a
+    *       (abc){3}   abc至少出现三次
+    *       a{3,}       a至少出现三次
+    *       [a-z]{3,5} 匹配3到5个字母
+    *       a+          a至少出现一次{1,}
+    *       a*          a出现任意次数,可有可无{0,}
+    *       a?          a出现0-1次{0,1}
+    * */
+    //通过构造函数来创建一个正则表达式的对象
+    let regular = new RegExp();
+    //通过字面量创建
+    let regular2 = /正则表达式/;
+    {
+        //检查字符串中是否含"a"
+        let reg = /a/;
+
+        let str = "abc";
+        let result = reg.test(str); //true
+        console.log(result);
+    }
+    {
+        //获取字符串中符合a什么c的字符段
+        let str = "ahchasdfhachaecaocaicabc"
+
+        let reg = /a[a-z]c/ig;
+        //i表示ignoreCase，忽略大小写;g表示global，全局匹配,每调用一次就会向下匹配一个符合的内容
+        let result = reg.exec(str);
+        console.log(result);
+        let reg1 = /a([a-z])c/ig;
+        //括号表示把匹配到的内容返回
+        let result1 = reg1.exec(str);
+        console.log(result1);
+    }
+    {
+        //获取字符串中的手机号码
+        let str = "asdfsdfawefasdf15812345678awfsdfaww34ra43taesrfasdf13812345678af3fsdfaw13912345678asdfq3rAT"
+        /*手机号的规则:
+            例:18241103119
+                1(必须以"1"开头) 8(不能为"0,1,2") 241103119(任意九位数字)
+        * */
+        let reg = /(1[3-9]\d)\d{4}(\d{4})/g
+
+        let result;
+        while (result = reg.exec(str) !== null) {
+            console.log("您的号码:" + result[1] + "****" + result[2]);
+        }
+    }
+}
+{
+    //DOM
+    /*Document Object Model
+    *       DOM将网页中所有内容都转换为对象,可以完全以OOP的方式控制网页
+    *       DOM是一个模型(Model),体现的对象之间的关系(父级子级兄弟级)
+    * 节点(Node):
+    *   网页的每一个对象都是一个节点
+    *       1.文档节点  Document
+    *       2.元素节点  Element
+    *       3.文本节点
+    *       4.属性节点
+    *   Node是所有网页对象共同的父类,相当于对象中的Object
+    * 关系:
+    *   祖先-包含后代元素的元素
+    *   后代-被祖先元素包含的元素
+    *   父-直接包含子元素的元素
+    *   子-直接被父元素包含的元素
+    *   兄弟-拥有相同父元素的元素
+    * */
+    /*DOM的使用
+    *   使用DOM操作网页,需要浏览器至少先提供一个对象,这个对象就是Document
+    *       document表示整个网页,window表示整个窗口
+    * */
+    {
+        /*文档节点对象
+        *   document对象的原型链:
+        *       HTMLDocument -> Document -> Node -> EventTarget -> Object.prototype -> null
+        *   凡是原型链上存在的对象的属性和方法都可以通过Document去调用
+        * 部分属性:
+        *   document.documentElement:   获取HTML根元素
+        *   document.head:              获取head元素
+        *   document.title:             获取网页标题
+        *   document.body:              获取body元素
+        *   document.link:              获取link元素
+        * */
+        //获取一个元素
+        let btn = document.getElementById("testBtn");
+        //btn作为DOM对象的实例
+        //innerText属性:按钮上的文本内容
+        btn.innerText = "按钮";
+        btn.onclick = function () {
+            alert("按钮被点击");
+        }
+
+        /*元素节点对象
+        * 通过document获取已有元素节点:
+        *   document.getElementById():
+        *       根据id获取一个元素节点对象
+        *   document.getElementsByClassName():
+        *       根据class获取一个元素节点对象
+        *       该方法返回的结果是一个实时更新的集合
+        *           当网页中添加新元素时,集合也会实时刷新
+        *   document.getElementsByTagName():
+        *       根据tag获取一个元素节点对象
+        *       返回的结果是可以实时更新的集合
+        *       document.getElementsByTagName("*")表示获取页面中的所有元素
+        *   document.getElementsByName()
+        *       根据name属性获取一组元素节点对象
+        *       返回一个实时更新的集合
+        *       主要用于表单项(form)
+        *   document.querySelector()
+        *       根据css选择器获取一个元素节点对象
+        *       会选择第一个符合的节点
+        *   document.querySelectorAll()
+        *       根据css选择器获取一组元素节点对象
+        *       返回一个类数组,但是不会实时更新
+        * 通过document创建元素节点
+        *   document.creatElement()
+        *       根据标签名创建一个元素节点对象,但是不会被真正插入到网页中
+        * */
+    }
 }
