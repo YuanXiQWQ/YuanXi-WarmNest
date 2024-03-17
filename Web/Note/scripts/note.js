@@ -913,51 +913,147 @@
     *       document表示整个网页,window表示整个窗口
     * */
     {
-        /*文档节点对象
-        *   document对象的原型链:
-        *       HTMLDocument -> Document -> Node -> EventTarget -> Object.prototype -> null
-        *   凡是原型链上存在的对象的属性和方法都可以通过Document去调用
-        * 部分属性:
-        *   document.documentElement:   获取HTML根元素
-        *   document.head:              获取head元素
-        *   document.title:             获取网页标题
-        *   document.body:              获取body元素
-        *   document.link:              获取link元素
+        {
+            /*文档节点对象
+            *   document对象的原型链:
+            *       HTMLDocument -> Document -> Node -> EventTarget -> Object.prototype -> null
+            *   凡是原型链上存在的对象的属性和方法都可以通过Document去调用
+            * 部分属性:
+            *   document.documentElement:   获取HTML根元素
+            *   document.head:              获取head元素
+            *   document.title:             获取网页标题
+            *   document.body:              获取body元素
+            *   document.link:              获取link元素
+            * */
+            //获取一个元素
+            let btn = document.getElementById("testBtn");
+            //btn作为DOM对象的实例
+            //innerText属性:按钮上的文本内容
+            btn.innerText = "按钮";
+            btn.onclick = function () {
+                alert("按钮被点击");
+            }
+        }
+        {
+            /*元素节点对象
+            * 通过document获取已有元素节点:
+            *   document.getElementById():
+            *       根据id获取一个元素节点对象
+            *   document.getElementsByClassName():
+            *       根据class获取一个元素节点对象
+            *       该方法返回的结果是一个实时更新的集合
+            *           当网页中添加新元素时,集合也会实时刷新
+            *   document.getElementsByTagName():
+            *       根据tag获取一个元素节点对象
+            *       返回的结果是可以实时更新的集合
+            *       document.getElementsByTagName("*")表示获取页面中的所有元素
+            *   document.getElementsByName()
+            *       根据name属性获取一组元素节点对象
+            *       返回一个实时更新的集合
+            *       主要用于表单项(form)
+            *   document.querySelector()
+            *       根据css选择器获取一个元素节点对象
+            *       会选择第一个符合的节点
+            *   document.querySelectorAll()
+            *       根据css选择器获取一组元素节点对象
+            *       返回一个类数组,但是不会实时更新
+            *
+            * 通过document创建元素节点
+            *   document.creatElement()
+            *       根据标签名创建一个元素节点对象,但是不会被真正插入到网页中
+            *
+            * 通过元素节点对象获取其它节点的方法
+            *   元素.childNodes
+            *       获取当前元素的子节点(包含空白的子节点)
+            *   元素.parentNode
+            *       获取当前元素的父节点
+            *   元素.children
+            *       获取当前元素的子元素
+            *   元素.firstElementChild
+            *       获取当前元素的第一个子元素
+            *   元素.lastElementChild
+            *       获取当前元素的最后一个子元素
+            *   元素.previousElementSibling
+            *       获取当前元素的上一个兄弟元素
+            *   元素.nextElementSibling
+            *       获取当前元素的下一个兄弟元素
+            *   元素.nextElementSibling
+            *       获取当前元素的下一个兄弟元素
+            *   元素.previousElementSibling
+            *       获取当前元素的上一个兄弟元素
+            *   元素.tagName
+            *       获取当前元素的标签名
+            * */
+
+            let div = document.getElementById("testDiv");
+            let spans = div.getElementsByTagName("span");
+
+            let firstSpan = spans[0];
+            firstSpan = div.firstElementChild;
+        }
+        {
+            /*文本节点
+             *  DOM中,网页中所有的文本内容都是文本节点对象
+             *  可以直接通过元素修改其中的文本
+             *      修改文本的三个属性
+             *          元素.textContent
+             *              获取或修改元素中的文本内容
+             *              获取的是标签中的内容,包括空白符.不会考虑CSS样式
+             *          元素.innerText
+             *              获取或修改元素中的文本内容
+             *              获取内容时会考虑CSS样式,例如:如果style="display:none",就会显示空白
+             *              当字符串中有标签时,会自动对标签进行转义,如:
+             *                  <li> --> &lt;li&gt;
+             *          元素.innerHTML
+             *              获取或修改元素中的html代码
+             *              可以直接向元素中添加HTML代码
+             *              在公开网站上使用有被XSS注入的风险,如
+             *                  别人在使用了innerHTML的输入框中添加<script>恶意脚本,会在所有打开网页的人的浏览器中运行改脚本
+             * */
+            //获取文本节点对象
+            let div = document.getElementById("testDiv");
+            let span = div.firstElementChild;
+            let text = span.firstChild;
+            //或者
+            text = span.textContent;
+            console.log(text);
+        }
+    }
+    {
+        //事件
+        /*
+        *   就是用户和页面之间发生的♂行为
+        *       例如点击按钮,鼠标移动
+        *   可以通过为时间绑定响应函数(回调函数)来完成交互
+        *   绑定响应函数的方式:
+        *       1.可以直接在元素的属性中设置
+        *       2.可以通过为元素的指定属性设置回调函数的形式来绑定事件
+        *       3.可以通过元素时间监听器addEventListener()方法来绑定事件
         * */
-        //获取一个元素
+
         let btn = document.getElementById("testBtn");
-        //btn作为DOM对象的实例
-        //innerText属性:按钮上的文本内容
-        btn.innerText = "按钮";
-        btn.onclick = function () {
-            alert("按钮被点击");
+        //使用onclick
+        btn.onclick = () => {
+            alert("1");
         }
 
-        /*元素节点对象
-        * 通过document获取已有元素节点:
-        *   document.getElementById():
-        *       根据id获取一个元素节点对象
-        *   document.getElementsByClassName():
-        *       根据class获取一个元素节点对象
-        *       该方法返回的结果是一个实时更新的集合
-        *           当网页中添加新元素时,集合也会实时刷新
-        *   document.getElementsByTagName():
-        *       根据tag获取一个元素节点对象
-        *       返回的结果是可以实时更新的集合
-        *       document.getElementsByTagName("*")表示获取页面中的所有元素
-        *   document.getElementsByName()
-        *       根据name属性获取一组元素节点对象
-        *       返回一个实时更新的集合
-        *       主要用于表单项(form)
-        *   document.querySelector()
-        *       根据css选择器获取一个元素节点对象
-        *       会选择第一个符合的节点
-        *   document.querySelectorAll()
-        *       根据css选择器获取一组元素节点对象
-        *       返回一个类数组,但是不会实时更新
-        * 通过document创建元素节点
-        *   document.creatElement()
-        *       根据标签名创建一个元素节点对象,但是不会被真正插入到网页中
+        btn.onclick = () => {
+            alert("2");
+        }
+        //onclick 相当于把属性值改掉,会被覆盖,永远只会执行最后一个绑定的方法
+
+        //使用时间监听器可以实现一个事件多个方法
+        btn.addEventListener("dblclick", function () {
+            alert("双击");
+        })
+    }
+    {
+        //文档的加载
+        /*网页是自上向下加载的,如果将JS代码放在网页上面,JS在执行时,网页还没加载完毕,所以会出现无法获取到DOM的现象
+        * 解决方案:
+        *   1.将<script>标签写到<body>的最后
+        *   2.写在<header>中,但是添加defer使脚本后执行
+        *       <script defer src="note.js"></script>
         * */
     }
 }
