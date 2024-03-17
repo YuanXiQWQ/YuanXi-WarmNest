@@ -1056,4 +1056,145 @@
         *       <script defer src="note.js"></script>
         * */
     }
+    {
+        //XSS注入
+        /*当网页中有需要用户输入的内容,就可能有潜在的XSS注入风险
+        * */
+        let name;
+        let email;
+        let tbody;
+        tbody.insertAdjacentHTML(
+            "beforeend",
+            `<tr>
+                      <td>${name}</td>
+                      <td>${email}</td>
+                      <td>
+                          <a href="javascript:;">删除</a>
+                      </td>
+                    </tr>`
+        )
+        //创建元素
+        let tr = document.createElement("tr");
+
+        //创建td
+        let nameTd = document.createElement("td");
+        let emailTd = document.createElement("td");
+        nameTd.textContent = name;
+        emailTd.innerText = email;
+        tr.appendChild(nameTd);
+        tr.appendChild(emailTd);
+    }
+    {
+        //事件(event)
+        /*事件对象
+        *   事件对象是浏览器在实践出发时所创建的对象
+        *       这个对象中封装了事件相关的各种信息
+        *   通过事件对象可以获取到事件的详细信息
+        *       比如:鼠标的坐标,键盘的按键等
+        *   浏览器在创建事件对象后,会将事件对象作为响应函数的参数传递,
+        *       所以我们可以在事件的回调函数句中定义一个形参来接受事件对象
+        * */
+        let box0 = document.getElementById("testBox");
+
+        box0.addEventListener("mousemove", event => {
+            console.log(event.clientX, event.clientY);
+
+            box0.textContent = event.clientX + "," + event.clientY;
+        })
+        {
+            /*DOM中有多种不同类型的事件对象
+            * 共同的祖先是Event
+            *   Event.target 触发事件的对象
+            *   Event.currentTarget 绑定事件的对象
+            *   Event.stopPropagation() 停止事件的传递
+            *   Event.preventDefault() 阻止事件默认行为(如超链接的点击后跳转)
+            * */
+        }
+        {
+            /*事件的冒泡(bubble)
+            *   指的是事件的向上传递
+            *       当元素上的某个事件被触发后,其祖先元素上的相同时间也会同时被触发
+            *       简化了JS代码的编写,但是在一些场景中并不希望冒泡存在
+            *           不希望事件冒泡时,可以通过事件对象来取消冒泡
+            *               Event.stopPropagation();
+            * */
+            let box1 = document.getElementById("box1");
+            let box2 = document.getElementById("box2");
+            let box3 = document.getElementById("box3");
+            box1.addEventListener("click", () => {
+                /*在事件的响应函数中:
+                    Event.target表示的是触发事件的对象
+                    this表示的是绑定事件的对象
+                * */
+                console.log(Event.target);
+                console.log(this);
+                alert("box1");
+            })
+            box2.addEventListener("click", () => {
+                alert("box2");
+            })
+            box3.addEventListener("click", () => {
+                Event.stopPropagation()
+                alert("box3");
+            })
+        }
+        {
+            /*事件的委派
+            希望:
+                只绑定一次事件,即可以让所有的超链接,包括当前的和未来新建的超链接具有特定事件
+            思路:
+                可以将事件统一绑定给document,这样点击超链接时,由于事件的冒泡,会导致document上的点击事件被触发.
+                    这样只绑定一次,所有的超链接都会具有这些事件.
+           委派就是将本该绑定给多个元素的事件统一绑定给document(通常),这样可以降低代码的复杂度,方便维护.
+        * */
+            let list = document.getElementById("testList");
+            let links = list.getElementsByTagName("a");
+
+            //把事件统一委托给document,就不必在每次新建一个对象都要重写方法
+            document.addEventListener("click", (Event) => {
+                //执行代码前先判断事件是否由希望添加方法的对象触发
+                if ([...links].includes(Event.target)) {
+                    alert(Event.target.textContent);
+                }
+            })
+        }
+        {
+            /*事件的传播机制:
+            *   在DOM中,事件的传播可以分为三个阶段:
+            *       1.捕获阶段  (由祖先元素向目标元素进行事件的捕获)
+            *           默认情况下,事件不会在捕获阶段触发
+            *           如果希望在捕获阶段触发事件,可以将addEventListener的第三个参数设置为true
+            *       2.目标阶段  (触发事件的对象)
+            *       3.冒泡阶段  (由目标元素向祖先元素进行事件的冒泡)
+            * */
+        }
+    }
+}
+{
+    //BOM
+    /*Browser Object Model浏览器对象模型
+        提供了一组对象,通过对象可以完成对浏览器的各种操作
+    * 对象:
+    *   Window      代表浏览器窗口(全局对象)
+    *   Navigator   浏览器的对象(可以用来识别浏览器)
+    *   Location    浏览器的地址栏信息
+    *   History     浏览器的历史记录(不能真正获取到记录,只能获取到访问了几个网页.用来控制浏览器页面的前进后退)
+    *   Screen      屏幕的信息
+    * */
+}
+{
+    //定时器
+    /*通过定时器,可以使代码在指定时间后执行
+    * 设置定时器:
+    *   setTimeout();
+    *       参数
+    *           1.回调函数(要执行的代码)
+    *           2.延迟时间(毫秒)
+    *           3.是否在下一轮事件循环中执行
+    *   setInterval();
+    *       参数和setTimeout()函数一样，但是会在每次循环中都执行
+    * 关闭计时器:
+    *   clearTimeout(定时器实例变量名);
+    *
+    * */
 }
