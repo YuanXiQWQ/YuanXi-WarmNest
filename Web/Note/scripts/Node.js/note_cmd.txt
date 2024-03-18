@@ -1,0 +1,7 @@
+命令行的结构:
+chrome http://outlook.com http://baidu.com
+chrome:         命令名称
+http://...:     参数
+
+常用快捷键:
+upArrow:    调出上一个指令
