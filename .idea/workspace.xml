@@ -25,10 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab322eb-ba87-4532-93d4-ef3d67c3fcea" name="更改" comment="没干啥">
-      <change afterPath="$PROJECT_DIR$/Web/Note/scripts/Node.js/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Note/scripts/Node.js/ES_note.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Note/scripts/Node.js/ES_note.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/Note/scripts/Node.js/note_Node.JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Note/scripts/Node.js/note_Node.JS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Note/scripts/Node.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Note/scripts/Node.js/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +225,7 @@
       <workItem from="1710676800339" duration="6834000" />
       <workItem from="1710787423562" duration="3407000" />
       <workItem from="1710793249865" duration="16677000" />
-      <workItem from="1710874181538" duration="451000" />
+      <workItem from="1710874181538" duration="5142000" />
     </task>
     <task id="LOCAL-00001" summary="没干啥">
       <option name="closed" value="true" />
