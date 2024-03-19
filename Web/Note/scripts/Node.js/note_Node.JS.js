@@ -389,7 +389,62 @@
             导出所有东西,并放入名为name的对象中
             import * as name from "模块的路径"
         * */
+
+        /*向外部导出内容
+        export没有s
+        * */
+
+
+        /*默认导出
+        * export default
+        * 一个模块只能有一个默认导出
+        * 通过ES模块化导入的内容都是常量
+        * */
     }
+    {
+        //核心模块
+        /*是Node.js自带的模块,可以在node中直接使用
+         window是浏览器的宿主对象,node是没有的
+         node的全局对象是global,类似于window
+         ES标准下,全局对象的标准名应该是globalThis,浏览器的globalThis就是window,node的就是global
+        * */
+
+        /*process
+            表示当前的node进程
+            通过该对象可以获取进程的信息,或者对进程做各种操作
+            如何使用
+                process是一个全局变量,可以直接使用
+            属性方法
+                exit()                          结束当前进程,,终止node
+                nextTick(callback,[,...args])   将函数插入到tick队列中
+                    调用栈
+                    tick
+                    微任务队列
+                    宏任务队列
+        * */
+
+        /*path
+        * */
+    }
+}
+{
+    //npm包管理器(Node Package Manager)
+    /*可以当做一个一个包的仓库
+    *
+    * Package.json
+    *   Node中通过该文件对包进行描述
+    *   每一个Node项目必须有一个Package.json
+    * 命令行指令
+    *   npm init            初始化项目,创建package.json文件(需要回答问题)
+    *   npm init -y         初始化项目，不需要回答问题,所有值都采用默认值
+    *   npm install 包名     将指定包下载到当前项目中
+    *       install时发生了什么:
+    *           1. 将包下载到当前项目的node_modules目录下
+    *           2. 会在package.json的dependencies属性中添加一个新属性:,如
+    *               "lodash": "^4.17.21",
+    *               这是当前包的依赖.使用npm install安装包时会自动安装所有依赖.
+    *
+    * */
 }
 
 
