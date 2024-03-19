@@ -408,23 +408,96 @@
          node的全局对象是global,类似于window
          ES标准下,全局对象的标准名应该是globalThis,浏览器的globalThis就是window,node的就是global
         * */
+        {
+            /*process
+                表示当前的node进程
+                通过该对象可以获取进程的信息,或者对进程做各种操作
+                如何使用
+                    process是一个全局变量,可以直接使用
+                属性方法
+                    exit()                          结束当前进程,,终止node
+                    nextTick(callback,[,...args])   将函数插入到tick队列中
+                        调用栈
+                        tick
+                        微任务队列
+                        宏任务队列
+            * */
+        }
+        {
+            /*path
+                表示文件的路径
+                通过path可以用来获取各种路径
+                要使用path需要先引入
+                方法:
+                    resolve([...paths])
+                        用来生成一个绝对路径
+            * */
 
-        /*process
-            表示当前的node进程
-            通过该对象可以获取进程的信息,或者对进程做各种操作
-            如何使用
-                process是一个全局变量,可以直接使用
-            属性方法
-                exit()                          结束当前进程,,终止node
-                nextTick(callback,[,...args])   将函数插入到tick队列中
-                    调用栈
-                    tick
-                    微任务队列
-                    宏任务队列
-        * */
+            //表示当前目录文件的路径:
+            let path = require("node:path");
+            let pathOfPackage = path.resolve(__dirname, "./package.json");
+            console.log(pathOfPackage);
 
-        /*path
-        * */
+            /*fs(File System)
+            *   用来帮助node来操作磁盘中的文件
+            *   也就是所谓的I/O
+            *   使用fs模块同样需要引入
+            * */
+            const fs = require("node:fs");
+
+            /*readFileSync()同步地读取文件的方法,会阻塞后边代码的执行
+            * 当通过fs模块读取磁盘中的数据时,读取到的数据总会已Buffer对象的形式返回
+            * Buffer是应该临时用来存储数据的缓冲区
+            * */
+
+            let buf = fs.readFileSync(path.resolve(__dirname, "./package.json"));
+            console.log(buf.toString());
+
+            /*fs.readFile()异步读取文件方法
+            * 数据会以函数的参数形式返回
+            * */
+            fs.readFile(
+                path.resolve(__dirname, "./package.json"),
+                (err, buffer) => {
+                    if (err) {
+                        console.log("读取失败");
+                    } else {
+                        console.log(buffer.toString());
+                    }
+                }
+            );
+
+            /*Promise版本的fs方法:
+            * */
+            fs.readFile(path.resolve(__dirname, "./package.json"))
+                .then(buffer => {
+                    console.log(buffer.toString());
+                })
+                .catch(err => {
+                    console.log("读取失败");
+                });
+
+            /*或者
+            * */
+            ;(async () => {
+            try {
+                let buffer = await fs.readFile(path.resolve(__dirname, "./package.json"));
+                console.log(buffer.toString());
+            } catch (err) {
+                console.log("读取失败");
+            }
+        })();
+
+            /*其它方法:
+            * fs.readFile()     读取文件
+            * fs.appendFile()   创建新文件,或将数据添加到已有文件中
+            * fs.mkdir()        创建文件夹
+            * fs.rmdir()        删除文件夹
+            * fs.rm()           删除文件
+            * fs.rename()       重命名
+            * fs.copyFile()     复制文件
+            * */
+        }
     }
 }
 {
@@ -614,7 +687,20 @@
       和路由的区别:
         会匹配所有请求
         路径设置父目录
+      参数:
+      包含三个参数的回调函数
+        用户请求 request
+        响应请求 response
+        下一个中间件 next()
+            next():调用回调函数后可以触发后续的中间件
+                    不能再响应处理完毕后调用
     * */
+    app.use((req, res, next) => {
+        console.log("我是中间件");
+        next();
+    });
+}
+{
 
 }
 
