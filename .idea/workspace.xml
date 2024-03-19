@@ -25,9 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab322eb-ba87-4532-93d4-ef3d67c3fcea" name="更改" comment="没干啥">
-      <change afterPath="$PROJECT_DIR$/Web/Note/scripts/Node.js/note_Node.JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Note/scripts/Node.js/note_cmd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/Note/scripts/Node.js/CommonJS_note.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/Note/scripts/Node.js/ES_note.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Note/scripts/Node.js/note_Node.JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Note/scripts/Node.js/note_Node.JS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Note/scripts/Node.js/练习/元夕.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Note/scripts/Node.js/练习/元夕.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +102,8 @@
     "JAR 应用程序.1.19.4.jar.executor": "Run",
     "JUnit.Mathematics2Test.executor": "Run",
     "JUnit.MathematicsTest.executor": "Run",
+    "Node.js.a.js.executor": "Run",
+    "Node.js.async.js.executor": "Run",
     "Node.js.note.js.executor": "Debug",
     "Node.js.note_Node.JS.js.executor": "Run",
     "Node.js.openai-test.js.executor": "Run",
@@ -129,7 +133,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.rainbow.brackets.disable.when",
+    "settings.editor.selected.configurable": "inlay.hints",
     "ts.external.directory.path": "R:\\WebStorm\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true",
     "应用程序.BaseballStats.executor": "Run",
@@ -221,6 +225,8 @@
       <workItem from="1710573821239" duration="2991000" />
       <workItem from="1710577025321" duration="20854000" />
       <workItem from="1710676800339" duration="6834000" />
+      <workItem from="1710787423562" duration="3407000" />
+      <workItem from="1710793249865" duration="12741000" />
     </task>
     <task id="LOCAL-00001" summary="没干啥">
       <option name="closed" value="true" />
