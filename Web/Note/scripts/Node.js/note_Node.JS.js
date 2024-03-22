@@ -701,7 +701,58 @@
     });
 }
 {
+    //nodemon
+    /*一般服务器修改后必须要重启,希望一种方式,可以自动监视代码的修改
+        代码修改以后可以自动重启服务器
+      使用方式:
+        全局安装
+            nmp i nodemon -g
+            yarn global add nodemon
+    *       启动:
+                nodemon     运行index.js
+                nodemon xxx 运行指定的文件
+        在项目中安装
+            npm i nodemon -D
+            yarn add nodemon -D
+            启动
+                npx nodemon
 
+    * */
 }
+{
+    {
+        //静态资源
+        /*希望用户返回根目录时,可以给用户返回一个网页
+        * 服务器中的代码,对于外部来说都是不可见的
+        *   所以我们写的html页面,浏览器无法直接访问
+        *   如果希望浏览器可以访问,则需要将页面所在的目录设置为静态资源
+        * 设置static中间件后,浏览器访问时,会自动去public目录寻找
+        * */
+        const express = require("node:express");
+        const path = require("node:path");
+        app.use(express.static(path.resolve(__dirname, "./public")));
 
+        //表单提交的链接action替换为/login,method替换为对应方法(这里是post),可以实现提交后登录的效果
+        app.post("/login", (req, res) => {
+            //req.query表示查询字符串中的请求参数
+            let username = req.query.username;
+            let password = req.query.password;
+            console.log(username, password);
+
+            //验证用户输入的用户名和密码是否正确
+            if (req.query.username === "admin" && req.query.password === "123") {
+                res.send("登录成功");
+            } else {
+                res.send("用户名或密码错误!");
+            }
+        });
+    }
+    {
+        //param和post请求
+        /*get请求发送参数的第二种方式:
+        *    /hello/:id" 表示当用户访问/hello/xxx时就会触发
+        *   在路径中以冒号明明的部分被称为param,在get请求它可以
+        * */
+    }
+}
 

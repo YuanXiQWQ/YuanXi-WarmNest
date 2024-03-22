@@ -2,7 +2,6 @@
 <project version="4">
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
-    <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -26,8 +25,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9ab322eb-ba87-4532-93d4-ef3d67c3fcea" name="更改" comment="没干啥">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Note/scripts/Node.js/note_Node.JS.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Note/scripts/Node.js/note_Node.JS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Note/scripts/Node.js/练习/元夕.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Note/scripts/Node.js/练习/元夕.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/app/data/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/app/data/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/public/scripts/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/public/scripts/client.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,8 +102,10 @@
     "JUnit.MathematicsTest.executor": "Run",
     "Node.js.a.js.executor": "Run",
     "Node.js.async.js.executor": "Run",
+    "Node.js.index.js.executor": "Run",
     "Node.js.note.js.executor": "Debug",
     "Node.js.note_Node.JS.js.executor": "Run",
+    "Node.js.note_REST&AJAX.js.executor": "Run",
     "Node.js.openai-test.js.executor": "Run",
     "Node.js.script.js.executor": "Debug",
     "Node.js.test.js.executor": "Run",
@@ -122,7 +124,7 @@
     "javascript.nodejs.core.library.typings.version": "20.11.27",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "R:/YuanXi-WarmNest/Web/Project",
+    "last_opened_file_path": "R:/Comp1800",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -150,15 +152,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="R:\YuanXi-WarmNest\BCIT\Comp1537\Assignment_4" />
+      <recent name="R:\YuanXi-WarmNest\BCIT\Comp1537\Assignment_4\styles" />
+      <recent name="R:\YuanXi-WarmNest\BCIT\Comp1537\Assignment_4\images" />
       <recent name="R:\YuanXi-WarmNest\Web\Project" />
       <recent name="R:\YuanXi-WarmNest\Git,GitHub\GitKrakenAutoTranslator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="R:\Comp1800\1800_202410_BBY26" />
+      <recent name="R:\Comp1800\1800_202410_BBY26\app" />
+      <recent name="R:\Comp1800\1800_202410_BBY26\app\html" />
+      <recent name="R:\Comp1800\1800_202410_BBY26\public" />
       <recent name="R:\YuanXi-WarmNest\Web\Note\scripts\Node.js" />
-      <recent name="R:\YuanXi-WarmNest\Web\Note\scripts\node" />
-      <recent name="R:\YuanXi-WarmNest\Web\Project" />
-      <recent name="R:\YuanXi-WarmNest\Web\Project\Templates" />
-      <recent name="R:\YuanXi-WarmNest\Git,GitHub\GitKraken-AutoTranslator\images" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ca.bcit.comp1510.lab06" />
@@ -227,7 +232,9 @@
       <workItem from="1710787423562" duration="3407000" />
       <workItem from="1710793249865" duration="16677000" />
       <workItem from="1710874181538" duration="5232000" />
-      <workItem from="1710887527976" duration="2145000" />
+      <workItem from="1710887527976" duration="10317000" />
+      <workItem from="1710902735611" duration="5250000" />
+      <workItem from="1710957961471" duration="7472000" />
     </task>
     <task id="LOCAL-00001" summary="没干啥">
       <option name="closed" value="true" />
