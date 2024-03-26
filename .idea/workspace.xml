@@ -24,10 +24,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab322eb-ba87-4532-93d4-ef3d67c3fcea" name="更改" comment="没干啥">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/app/data/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/app/data/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/public/scripts/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/BCIT/Comp1537/Assignment_4/public/scripts/client.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,9 @@
     &quot;assignee&quot;: &quot;YuanXiQWQ&quot;
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -121,10 +122,10 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "20.11.1",
-    "javascript.nodejs.core.library.typings.version": "20.11.27",
+    "javascript.nodejs.core.library.typings.version": "20.11.30",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "R:/Comp1800",
+    "last_opened_file_path": "F:/JerryCode/YuanXi-WarmNest",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -235,6 +236,7 @@
       <workItem from="1710887527976" duration="10317000" />
       <workItem from="1710902735611" duration="5250000" />
       <workItem from="1710957961471" duration="7472000" />
+      <workItem from="1711434846053" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary="没干啥">
       <option name="closed" value="true" />
