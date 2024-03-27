@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<button id="btn">查询数据</button>
+
+<!-- Script -->
+<script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"
+        charset="UTF-8"></script>
+
+<script type="text/javascript">
+    function getAjaxData() {
+        $.ajax({
+            type: "get", //请求的方式
+            url: "./data.json", //请求的url
+            data: {
+                // username: "Jerry",
+                // password: "123456"
+            },
+            /*预期返回的数据类型,如果是json格式,在接受返回值时会自动封装成json对象
+            (如果是json格式打印json对象;如果是String格式,返回仍然是json对象)*/
+            dataType: "json",
+            success: function (data) {
+                console.log(data);
+                const ul = $("<ul></ul>");
+                for (let i = 0; i < data.length; i++) {
+                    const user = data[i];
+                    const li = "<li>" + user.userName + "</li>";
+                    ul.append(li);
+                }
+                $("body").append(ul);
+            }
+            ,
+            error: () => {
+                console.log("请求失败");
+            }
+        });
+
+    }
+
+    $("#btn").click(getAjaxData);
+</script>
+</body>
+</html>

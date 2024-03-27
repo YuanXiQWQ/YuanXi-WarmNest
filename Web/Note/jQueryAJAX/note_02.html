@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>$.get和$.post</title>
+</head>
+<body>
+
+<script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"
+        charset="UTF-8"></script>
+
+<script type="text/javascript">
+    $.get("./data.json", (data) => {
+        console.log(data);
+    });
+    $.post("./data.json", {
+        username: "Jerry",
+        password: "123456"
+    }, function (data) {
+        console.log(data);
+    });
+
+    $.getJSON("./data.json", (data) => {
+        console.log(data);
+    });
+
+</script>
+</body>
+</html>
