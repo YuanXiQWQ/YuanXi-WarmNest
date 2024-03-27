@@ -1064,8 +1064,8 @@
         let email;
         let tbody;
         tbody.insertAdjacentHTML(
-            "beforeend",
-            `<tr>
+          "beforeend",
+          `<tr>
                       <td>${name}</td>
                       <td>${email}</td>
                       <td>
@@ -1261,6 +1261,68 @@
 {
     //jQuery
     /*一个代码库,便于提高开发效率
-    *
+    *   简化DOM,事件,动画,Ajax等操作
+    *   可能会影响一些性能
+    * 随着DOM标准更新,IE消亡,加上React,Vue,Angular等大型框架的出现,jQuery已经过时
+    *   可以进行一个原生JS库的过渡,以及开发需要兼顾兼容性的项目
     * */
+    {
+        //引入
+        /* 引入本地库:
+         *    <script src="./scripts/jquery-3.5.1.min.js"></script>
+         * 从公共服务器CDN引入:
+         *    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         * 引入jQuery库,其实就是向网页中添加了一个新的函数$(jQuery)
+         *    $ 是jQuery的核心函数, jQuery的所有功能都是通过该函数来进行的
+         * */
+    }
+    {
+        //核心函数
+        /*功能:
+            两种作用:
+              1. 作为工具类使用
+                    $.isFunction(fn)
+              2. 作为函数使用
+                    将一个函数作为$的参数
+                      这个函数会在文档加载完毕后执行
+                      相当于:
+                        document.addEventListener("DOMContentLoaded", fn);
+                    将选择器字符串作为参数:
+                      自动取页面中查找元素
+                      相当于 document.querySelector(selector)
+                      注意:通过jQuery核心函数查询的结果并不是原生的DOM元素,而是Object,称其为jQuery对象
+                          jQuery对象中提供了很多新的方法,方便做DOM操作
+                              但是jQuery对象不能直接调用原生DOM方法
+                              为jQuery对象命名时会使用$开头加以区分
+                    将DOM对象作为参数
+                      可以将DOM对象转换为jQuery对象,从而使用jQuery对象的方法使
+                    将HTML代码作为参数
+                      可以将HTML代码转换为jQuery对象,从而使用jQuery对象的方法
+        * */
+        const $ = require('jquery');
+
+        $(function () {
+            alert("核心函数执行");
+        });
+        alert("核心外部函数执行");
+
+        $("#btn").click(function () {
+            alert("按钮被点击");
+        });
+
+        var $h1 = $("<h1>标题</h1>");
+        $("#h1Container").append($h1);
+    }
+    {
+        //jQuery对象
+        /*通过jQuery核心函数获取到的对象
+        * 是jQuery中定义的对象
+        *   可以理解为DOM对象的升级版,在以前可以帮助简化DOM操作
+        * 本质是一个DOM对象的类数组
+        *   可以通过索引获取到jQuery对象中的DOM对象
+        * 当修改jQuery对象时,会自动修改jQuery中的所有元素
+        *   成为jQuery的隐式迭代
+        * 通常jQuery对象的方法返回值依然是一个jQuery对象
+        * */
+    }
 }

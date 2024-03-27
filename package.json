@@ -10,7 +10,8 @@
     "url": "https://github.com/YuanXiQWQ/YuanXi-WarmNest.git"
   },
   "dependencies": {
-    "express": "^4.18.3"
+    "express": "^4.18.3",
+    "jquery": "^3.7.1"
   },
   "bugs": {
     "url": "https://github.com/YuanXiQWQ/YuanXi-WarmNest/issues"
