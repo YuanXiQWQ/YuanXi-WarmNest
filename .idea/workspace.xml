@@ -25,12 +25,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9ab322eb-ba87-4532-93d4-ef3d67c3fcea" name="更改" comment="没干啥">
       <change afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/Note/scripts/Node.js/笔记(重头开始)/02_同步和异步.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/Note/scripts/Node.js/笔记(重头开始)/Node.js简介.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/Translator.html" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/Translator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/openai-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/openai-test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/translate.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Note/scripts/note.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Note/scripts/note.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +107,7 @@
     "JAR 应用程序.1.19.4.jar.executor": "Run",
     "JUnit.Mathematics2Test.executor": "Run",
     "JUnit.MathematicsTest.executor": "Run",
+    "Node.js.02_同步和异步.js.executor": "Run",
     "Node.js.a.js.executor": "Run",
     "Node.js.async.js.executor": "Run",
     "Node.js.index.js.executor": "Run",
@@ -244,7 +246,7 @@
       <workItem from="1711434846053" duration="423000" />
       <workItem from="1711569333685" duration="4421000" />
       <workItem from="1711575097787" duration="2712000" />
-      <workItem from="1711658194077" duration="1143000" />
+      <workItem from="1711658194077" duration="4762000" />
     </task>
     <task id="LOCAL-00001" summary="没干啥">
       <option name="closed" value="true" />
