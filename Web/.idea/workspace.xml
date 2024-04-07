@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09695341-faad-4c22-b022-f21c6bc41483" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/Note/scripts/jQueryAJAX/note.js" beforeDir="false" afterPath="$PROJECT_DIR$/Note/scripts/jQueryAJAX/note.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note/scripts/jQueryAJAX/note_02.html" beforeDir="false" afterPath="$PROJECT_DIR$/Note/scripts/jQueryAJAX/note_02.html" afterDir="false" />
-    </list>
+    <list default="true" id="09695341-faad-4c22-b022-f21c6bc41483" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +63,15 @@
     &quot;ts.external.directory.path&quot;: &quot;E:\\JetBrains\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JerryCode\YuanXi-WarmNest\Web\Note\HTML" />
+      <recent name="F:\JerryCode\YuanXi-WarmNest\Web\Note\JavaScript" />
+      <recent name="F:\JerryCode\YuanXi-WarmNest\Web\Note\Node.js" />
+      <recent name="F:\JerryCode\YuanXi-WarmNest\Web\Note" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712254389413</updated>
       <workItem from="1712254390554" duration="31000" />
-      <workItem from="1712484623667" duration="6390000" />
+      <workItem from="1712484623667" duration="7483000" />
     </task>
     <servers />
   </component>

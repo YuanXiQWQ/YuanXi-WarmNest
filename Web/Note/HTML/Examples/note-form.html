@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 表单标签示例 </title>
+    <link rel="icon" type="images/x-icon" href="../images/YuanXi.ico">
+</head>
+
+<body>
+    <h1> input/button示例 </h1>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>登录信息</legend>
+            姓名: <br>
+            <input type="text" placeholder="法定名称"> <br>
+
+            账号: <br>
+            <input type="text" placeholder="用户名/邮箱/手机号"> <br>
+
+            密码: <br>
+            <input type="password" placeholder="密码"> <br>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>性别选项</legend>
+            生理性别(sex): <br>
+            男性<input type="radio" name="sex"> <br>
+            女性<input type="radio" name="sex"> <br>
+            其它<input type="radio" name="sex"> <br>
+            男变女<input type="radio" name="sex"> <br>
+            女变男<input type="radio" name="sex"> <br>
+            其它变女<input type="radio" name="sex"> <br>
+            其它变男<input type="radio" name="sex"> <br>
+            <br>
+
+            社会性别(gender): <br>
+            男性<input type="radio" name="gender"> <br>
+            女性<input type="radio" name="gender"> <br>
+            双性<input type="radio" name="gender"> <br>
+            流性<input type="radio" name="gender"> <br>
+            性别存疑<input type="radio" name="gender"> <br>
+            泛性别<input type="radio" name="gender"> <br>
+            沃尔码购物袋<input type="radio" name="gender"> <br>
+            阿帕奇<input type="radio" name="gender"> <br>
+            其它<input type="radio" name="gender"> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>下拉菜单</legend>
+            所属大洲<select>
+                <option>亚洲</option>
+                <option>亚洲上面的洲</option>
+                <option>亚洲下面的洲</option>
+                <option>亚洲左面的洲</option>
+                <option>亚洲左下的洲</option>
+                <option>亚洲右下的洲</option>
+                <option>亚洲右下的下面的洲</option>
+            </select><br>
+
+            国家/地区<select>
+                <option>中国</option>
+                <option>上国</option>
+                <option>下国</option>
+                <option>左国</option>
+                <option>右国</option>
+            </select>
+
+
+            最喜欢干的事情: <br>
+            <input list="browsers" placeholder="选择或输入">
+            <datalist id="browsers">
+                <option value="吃饭">
+                <option value="睡觉">
+                <option value="打游戏">
+                <option value="学习">
+            </datalist>
+
+        </fieldset>
+
+        意见箱: <br>
+        <textarea cols="60" rows="10" placeholder="有任何意见写在这里,我们会考虑处理提出意见的人"></textarea><br>
+        <input type="submit" value="提交">
+        <input type="reset" value="重置">
+
+        <fieldset>
+            <legend>P2P下崽器</legend>
+            上传你的学习资料: <input type="file" multiple> <br>
+            <input type="checkbox" name="download" checked>360安全卫士
+            <input type="checkbox" name="download" checked>2345王牌浏览器
+            <input type="checkbox" name="download" checked>金山毒霸
+            <input type="checkbox" name="download" checked>正版传奇
+            <input type="checkbox" name="download" checked>鲁大师
+            <input type="checkbox" name="download" checked>小鸟壁纸
+            <input type="checkbox" name="download" checked>贪玩蓝月<br>
+            <input type="submit" value="提交"> <input type="reset" value="重置">
+            <input type="button" value="点着玩"> <button type="reset"><img src="../images/reset.png" alt="reset"
+                                                                           width="15"></button>
+        </fieldset>
+    </form>
+
+    <h1> label示例 </h1>
+    <h4><i>对比点击字而非按钮时候的效果</i></h4>
+    <hr>
+    <h3>之前的选项</h3>
+    性别 <br>
+    <input type="radio" name="sex">男
+    <input type="radio" name="sex">女
+    <h3>加了label后</h3>
+    <label><input type="radio" name="sex">男</label>
+    <label><input type="radio" name="sex">女</label>
+</body>
+
+</html>
