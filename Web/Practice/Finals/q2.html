@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Map Markers Data</title>
+</head>
+<body onload="display()">
+<div id="marker-data">
+  <!-- The marker data will be inserted here -->
+  <h1>Existing HTML.</h1>
+</div>
+
+<script>
+    // This is the mock response, simulating a JSON response from an AJAX call
+    const mockResponse = `
+      [
+          {
+              "title": "Stockholm",
+              "lat": 59.3,
+              "lng": 18.1,
+              "description": "Stockholm is the capital and the largest city of Sweden and constitutes the most populated urban area in Scandinavia with a population of 2.1 million in the metropolitan area (2010)"
+          },
+          {
+              "title": "Oslo",
+              "lat": 59.9,
+              "lng": 10.8,
+              "description": "Oslo is a municipality, and the capital and most populous city of Norway with a metropolitan population of 1,442,318 (as of 2010)."
+          },
+          {
+              "title": "Copenhagen",
+              "lat": 55.7,
+              "lng": 12.6,
+              "description": "Copenhagen is the capital of Denmark and its most populous city, with a metropolitan population of 1,931,467 (as of 1 January 2012)."
+          }
+      ]
+      `
+
+    function display() {
+        let parsedData = JSON.parse(mockResponse);
+        let str = "<table>";
+
+        for (let i = 0; i < parsedData.length; i++) {
+            let item = parsedData[i];
+            str += `
+              <tr>
+                <td>${item["title"]} </td>
+                <td>${item["lat"]} </td>
+                <td>${item["lng"]} </td>
+                <td>${item["description"]} </td>
+              </tr>`;
+
+            str += "</table>";
+            str += "<br>";
+            str += `<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>`
+            document.getElementById("marker-data").insertAdjacentHTML("afterend", str);
+        }
+    }
+</script>
+</body>
+</html>

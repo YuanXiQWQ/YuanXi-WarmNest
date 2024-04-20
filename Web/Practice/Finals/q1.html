@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Form Creation</title>
+</head>
+<body>
+<!-- The div where the form will be attached -->
+<div id="formContainer"></div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const formContainer = document.getElementById("formContainer");
+        const form = document.createElement("form");
+
+        form.method = "POST";
+
+        const usernameLabel = document.createElement("label");
+        usernameLabel.htmlFor = "username";
+        usernameLabel.innerText = "Username:";
+
+        const usernameInput = document.createElement("input");
+
+        usernameInput.type = "text";
+        usernameInput.name = "username";
+        usernameInput.id = "username";
+        usernameInput.required = true;
+        usernameInput.pattern = "[a-zA-Z0-9]{2-14}";
+
+        form.appendChild(usernameLabel);
+        form.appendChild(usernameInput);
+
+        const ageLabel = document.createElement("label");
+        ageLabel.htmlFor = "age";
+        ageLabel.innerText = "Age:";
+
+        const ageInput = document.createElement("input");
+        ageInput.type = "number";
+        ageInput.name = "age";
+        ageInput.id = "age";
+        ageInput.required = true;
+        ageInput.min = "18";
+        ageInput.max = "99";
+
+        form.appendChild(ageLabel);
+        form.appendChild(ageInput);
+
+        const emailLabel = document.createElement("label");
+        emailLabel.htmlFor = "email";
+        emailLabel.innerText = "Email:";
+
+        const emailInput = document.createElement("input");
+        emailInput.type = "email";
+        emailInput.name = "email";
+        emailInput.id = "email";
+        emailInput.required = true;
+
+
+        form.appendChild(emailLabel);
+        form.appendChild(emailInput);
+
+
+        const submitInput = document.createElement("input");
+        submitInput.type = "submit";
+        submitInput.name = "submit";
+        submitInput.id = "submit";
+        submitInput.value = "Submit";
+
+        form.appendChild(submitInput);
+
+        formContainer.appendChild(form);
+    })
+</script>
+</body>
+</html>

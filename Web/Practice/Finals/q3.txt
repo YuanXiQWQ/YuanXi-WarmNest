@@ -1,0 +1,9 @@
+// Strengths:
+// Asynchronous and Event-Driven: Handles multiple connections simultaneously, improving scalability for real-time apps.
+// Single Programming Language: JavaScript for both client and server-side simplifies development.
+// Large Ecosystem: Extensive npm registry provides a wealth of libraries and tools.
+// Good for I/O Bound Applications: Efficiently handles data-intensive operations, such as streaming.
+
+// Cons:
+// Not Suitable for CPU-Intensive Tasks: Single-threaded nature can be a bottleneck for heavy computational tasks.
+// Callback Hell: Complex nested callbacks can lead to harder code management, though Promises and async/await have mitigated this issue.
