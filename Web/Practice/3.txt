@@ -1,0 +1,11 @@
+youdian:
+offer many functions that allow async, and add callback function to solve the problem
+about async function cannot get return.
+
+offer local function to find files of the application
+
+has many libraries for easy coding
+
+When you make a , use node.js for server and use javascript for webpagonly e
+
+nodejs only in 1 thread, which means it hard for heavy
