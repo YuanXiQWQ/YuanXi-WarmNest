@@ -25,10 +25,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9ab322eb-ba87-4532-93d4-ef3d67c3fcea" name="更改" comment="没干啥">
       <change afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/Translator.html" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/Translator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/openai-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/openai-test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/translate.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Note/Node.js/笔记(重头开始)/14_包管理器.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Note/Node.js/笔记(重头开始)/14_包管理器.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,12 +63,12 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/YuanXiQWQ/YuanXi-WarmNest.git",
-    "accountId": "5d1cceef-8887-4a01-b6c3-5ca1cdede3bf"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YuanXiQWQ/YuanXi-WarmNest.git&quot;,
+    &quot;accountId&quot;: &quot;5d1cceef-8887-4a01-b6c3-5ca1cdede3bf&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -104,6 +106,10 @@
     &quot;JUnit.MathematicsTest.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.02_同步和异步.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.03_Promise介绍.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.04_Promise的详解.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.05_宏任务和微任务.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.08_async和await.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.11_核心模块.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.a.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.async.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
@@ -128,7 +134,7 @@
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.30&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/JerryCode/YuanXi-WarmNest&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/桌面文件柜&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -260,6 +266,13 @@
       <workItem from="1713207057098" duration="784000" />
       <workItem from="1713454298364" duration="2416000" />
       <workItem from="1713456727877" duration="7276000" />
+      <workItem from="1713581079288" duration="269000" />
+      <workItem from="1713664485016" duration="4258000" />
+      <workItem from="1713668760564" duration="1448000" />
+      <workItem from="1713749067910" duration="1470000" />
+      <workItem from="1713766335521" duration="9873000" />
+      <workItem from="1713908673020" duration="1864000" />
+      <workItem from="1713911510127" duration="7541000" />
     </task>
     <task id="LOCAL-00001" summary="没干啥">
       <option name="closed" value="true" />
@@ -287,6 +300,17 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="没干啥" />
