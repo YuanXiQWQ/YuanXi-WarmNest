@@ -25,12 +25,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9ab322eb-ba87-4532-93d4-ef3d67c3fcea" name="更改" comment="没干啥">
       <change afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/Translator.html" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/Translator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/openai-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/openai-test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/translate.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Note/Node.js/笔记(重头开始)/14_包管理器.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Note/Node.js/笔记(重头开始)/14_包管理器.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,78 +91,78 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;CMake 应用程序.YuanXi_sWarmNest.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JAR 应用程序.1.19.4.jar.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Mathematics2Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MathematicsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.02_同步和异步.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.03_Promise介绍.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.04_Promise的详解.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.05_宏任务和微任务.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.08_async和await.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.11_核心模块.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.a.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.async.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.note.js.executor&quot;: &quot;Debug&quot;,
-    &quot;Node.js.note_Node.JS.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.note_REST&amp;AJAX.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.openai-test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.script.js.executor&quot;: &quot;Debug&quot;,
-    &quot;Node.js.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.translate.js.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.11.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.30&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/桌面文件柜&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JavaScript&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;E:\\JetBrains\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.BaseballStats.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Boolean.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.GeometryDriver.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.NameDriver.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Person.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Point.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Student1.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.TestThis.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.User.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.test.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "CMake 应用程序.YuanXi_sWarmNest.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JAR 应用程序.1.19.4.jar.executor": "Run",
+    "JUnit.Mathematics2Test.executor": "Run",
+    "JUnit.MathematicsTest.executor": "Run",
+    "Node.js.02_同步和异步.js.executor": "Run",
+    "Node.js.03_Promise介绍.js.executor": "Run",
+    "Node.js.04_Promise的详解.js.executor": "Run",
+    "Node.js.05_宏任务和微任务.js.executor": "Run",
+    "Node.js.08_async和await.js.executor": "Run",
+    "Node.js.11_核心模块.js.executor": "Run",
+    "Node.js.a.js.executor": "Run",
+    "Node.js.async.js.executor": "Run",
+    "Node.js.index.js.executor": "Run",
+    "Node.js.note.js.executor": "Debug",
+    "Node.js.note_Node.JS.js.executor": "Run",
+    "Node.js.note_REST&AJAX.js.executor": "Run",
+    "Node.js.openai-test.js.executor": "Run",
+    "Node.js.script.js.executor": "Debug",
+    "Node.js.test.js.executor": "Run",
+    "Node.js.translate.js.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "20.11.1",
+    "javascript.nodejs.core.library.typings.version": "20.11.30",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/JerryCode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
+    "ts.external.directory.path": "E:\\JetBrains\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.BaseballStats.executor": "Run",
+    "应用程序.Boolean.executor": "Run",
+    "应用程序.Factorial.executor": "Run",
+    "应用程序.GeometryDriver.executor": "Run",
+    "应用程序.NameDriver.executor": "Run",
+    "应用程序.Person.executor": "Run",
+    "应用程序.Point.executor": "Run",
+    "应用程序.Student1.executor": "Run",
+    "应用程序.TestThis.executor": "Run",
+    "应用程序.User.executor": "Run",
+    "应用程序.test.executor": "Run"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言&quot;: [
-      &quot;MySQL&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言": [
+      "MySQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="R:\YuanXi-WarmNest\BCIT\Comp1537\Assignment_4" />
@@ -272,7 +270,8 @@
       <workItem from="1713749067910" duration="1470000" />
       <workItem from="1713766335521" duration="9873000" />
       <workItem from="1713908673020" duration="1864000" />
-      <workItem from="1713911510127" duration="7541000" />
+      <workItem from="1713911510127" duration="8977000" />
+      <workItem from="1714456113370" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="没干啥">
       <option name="closed" value="true" />
