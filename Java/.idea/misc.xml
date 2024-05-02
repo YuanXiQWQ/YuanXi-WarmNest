@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-swing.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-testutil.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-apache-bsf.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-junit4.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-apache-resolver.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-xz.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-parent.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-commons-net.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-jai.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-jdepend.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-apache-xalan2.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-launcher.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-commons-logging.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-jakartamail.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-apache-log4j.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-jsch.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-junitlauncher.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-junit.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-jmf.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-antlr.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-apache-bcel.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-apache-oro.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-javamail.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-imageio.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-netrexx.pom" />
+        <option value="$PROJECT_DIR$/Configuration/apache-ant-1.10.14/lib/ant-apache-regexp.pom" />
+        <option value="$PROJECT_DIR$/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/Fun/MathQuestion/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Fun/MathQuestion/untitled/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="22" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
