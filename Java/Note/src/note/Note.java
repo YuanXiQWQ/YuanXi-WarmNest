@@ -4,8 +4,7 @@
  * @author YuanXi
  * @version 2024.1.30
  */
-package note;//TIP 要<b>运行</b>代码，请按 <shortcut actionId="Run"/> 或
-// 点击间距中的 <icon src="AllIcons.Actions.Execute"/> 图标。
+package note;
 
 import java.util.Scanner;
 
@@ -784,6 +783,29 @@ public class Note {
             从属于类和对象
             面向对象中,整个程序的基本单位是类
         */
+
+        //**垃圾回收机制
+        //判断为垃圾的方法:
+        /*
+            1. 引用计数: 当对象的引用数为0时,则删除,但是无法删除互相引用的对象
+            2. 分代垃圾回收机制:
+                对象分为三种状态:年轻代,年老代,持久代. JVM将堆内存分别划分为 Eden, Survivor和 Tenured/Old 空间.
+                    年轻代:
+                    新生成对象首先放入Eden区. 当年轻代区域存放满对象后,就将对象存放到年老代区域.
+                    年老代:
+                    在年轻代中经历了N(默认15)次垃圾回收后仍然存活的对象,就将对象放入年老代区域
+                    永久代:
+                    用来存放静态文件,如Java类.垃圾回收对永久代没有显著影响.JDK8以后就没有永久代了,而是使用 meetaspace
+                    元数据空间和对替代.
+            3. 垃圾回收器:
+                Minor GC:
+                用于清理年轻代. Eden 区域满了就会触发一次 Minor GC, 清理无用对象,并将有用对象复制到 Survivor1,
+                Survivor2 中.
+                Major GC:
+                用于清理年老代. 用于清理年老代
+                Full GC:
+                用于清理年轻代,年老代啊区域,成本较高,会对系统性能产生影响.
+         */
     }
 }
 

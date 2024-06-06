@@ -24,11 +24,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab322eb-ba87-4532-93d4-ef3d67c3fcea" name="更改" comment="没干啥">
-      <change afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/Translator.html" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/Translator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/openai-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/openai-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Git,GitHub/Projects/GitKraken-AutoTranslator/scripts/translate.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCIT-Assignments/CST/Term2/Comp2510/Lab5/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../BCIT-Assignments/CST/Term2/Comp2510/Lab5/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,18 +117,21 @@
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "20.11.1",
-    "javascript.nodejs.core.library.typings.version": "20.11.30",
+    "javascript.nodejs.core.library.configured.version": "22.3.0",
+    "javascript.nodejs.core.library.typings.version": "22.0.0",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/JerryCode",
+    "last_opened_file_path": "F:/JerryCode/BCIT-Assignments/CST/Term2/Comp2714/Lab3.1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -142,7 +141,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
+    "settings.editor.selected.configurable": "sql.code.style.group",
     "ts.external.directory.path": "E:\\JetBrains\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true",
     "应用程序.BaseballStats.executor": "Run",
@@ -158,6 +157,9 @@
     "应用程序.test.executor": "Run"
   },
   "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora"
+    ],
     "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言": [
       "MySQL"
     ]
@@ -183,17 +185,11 @@
       <recent name="ca.bcit.comp1510.lab05" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -272,6 +268,11 @@
       <workItem from="1713908673020" duration="1864000" />
       <workItem from="1713911510127" duration="8977000" />
       <workItem from="1714456113370" duration="17000" />
+      <workItem from="1722395388175" duration="114000" />
+      <workItem from="1722395529042" duration="64000" />
+      <workItem from="1722395703443" duration="88000" />
+      <workItem from="1722395798227" duration="76000" />
+      <workItem from="1722395884137" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="没干啥">
       <option name="closed" value="true" />
