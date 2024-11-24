@@ -1,0 +1,59 @@
+public class Ocp {
+
+    public static void main(String[] args)
+    {
+        GraphicEditor ge = new GraphicEditor();
+        ge.drawShape(new Rectangle());
+        ge.drawShape(new Circle());
+        ge.drawShape(new Triangle());
+    }
+}
+
+// 这是一个用于绘图的类
+class GraphicEditor {
+    // 接受 Shape 对象, 然后根据 Shape 对象的类型, 调用不同的绘制方法
+    public void drawShape(Shape s)
+    {
+        s.draw();
+    }
+}
+
+abstract class Shape {
+    int mType;
+
+    public abstract void draw();
+}
+
+class Rectangle extends Shape {
+    Rectangle() {
+        super.mType = 1;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("绘制矩形");
+    }
+}
+
+class Circle extends Shape {
+    Circle() {
+        super.mType = 2;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("绘制圆形");
+    }
+}
+
+// 新增一个三角形
+class Triangle extends Shape {
+    Triangle() {
+        super.mType = 3;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("绘制三角形");
+    }
+}

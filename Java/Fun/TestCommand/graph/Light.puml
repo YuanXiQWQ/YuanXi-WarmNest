@@ -1,0 +1,94 @@
+@startuml
+skinparam packageStyle rectangle
+
+' 定义接口
+interface Command {
+    +execute(): void
+    +undo(): void
+}
+
+' 定义接收者类
+class LightReceiver {
+    +on(): void
+    +off(): void
+}
+
+class TVReceiver {
+    +on(): void
+    +off(): void
+}
+
+' 定义具体命令类
+class LightOnCommand {
+    -light: LightReceiver
+    +LightOnCommand(light: LightReceiver)
+    +execute(): void
+    +undo(): void
+}
+
+class LightOffCommand {
+    -light: LightReceiver
+    +LightOffCommand(light: LightReceiver)
+    +execute(): void
+    +undo(): void
+}
+
+class TVOnCommand {
+    -tv: TVReceiver
+    +TVOnCommand(tv: TVReceiver)
+    +execute(): void
+    +undo(): void
+}
+
+class TVOffCommand {
+    -tv: TVReceiver
+    +TVOffCommand(tv: TVReceiver)
+    +execute(): void
+    +undo(): void
+}
+
+' 定义空命令类
+class NoCommand {
+    +execute(): void
+    +undo(): void
+}
+
+' 定义遥控器类
+class RemoteController {
+    -onCommands: Command[]
+    -offCommands: Command[]
+    +RemoteController(slotCount: int)
+    +setCommand(slot: int, onCommand: Command, offCommand: Command)
+    +pressOnButton(slot: int)
+    +pressOffButton(slot: int)
+}
+
+' 定义客户端类
+class Client {
+    +main(args: String[]): void
+}
+
+' 定义关系
+Command <|-- LightOnCommand
+Command <|-- LightOffCommand
+Command <|-- TVOnCommand
+Command <|-- TVOffCommand
+Command <|-- NoCommand
+
+LightOnCommand o-- LightReceiver
+LightOffCommand o-- LightReceiver
+TVOnCommand o-- TVReceiver
+TVOffCommand o-- TVReceiver
+
+RemoteController o-- "n" Command : onCommands
+RemoteController o-- "n" Command : offCommands
+
+Client --> RemoteController
+
+' 调整布局，使 NoCommand 位于中间
+LightOnCommand -[hidden]- NoCommand
+LightOffCommand -[hidden]- NoCommand
+TVOnCommand -[hidden]- NoCommand
+TVOffCommand -[hidden]- NoCommand
+
+@enduml

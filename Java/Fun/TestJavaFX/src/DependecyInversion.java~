@@ -1,0 +1,41 @@
+public class DependecyInversion {
+    public static void main(String[] args)
+    {
+        Person person = new Person();
+        person.receive(new Email());
+    }
+}
+
+interface IReceiver {
+    public String getInfo();
+}
+
+class WeiXin implements IReceiver {
+    @Override
+    public String getInfo()
+    {
+        return "微信信息: Hello World";
+    }
+}
+
+class Email implements IReceiver {
+    @Override
+    public String getInfo()
+    {
+        return "电子邮件信息: Hello World";
+    }
+}
+
+class SMS implements IReceiver {
+    @Override
+    public String getInfo()
+    {
+        return "短信信息: Hello World";
+    }
+}
+
+class Person {
+    public void receive(IReceiver receiver) {
+        System.out.println(receiver.getInfo());
+    }
+}

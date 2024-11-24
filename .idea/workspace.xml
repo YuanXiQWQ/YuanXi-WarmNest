@@ -24,7 +24,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab322eb-ba87-4532-93d4-ef3d67c3fcea" name="更改" comment="没干啥">
-      <change beforePath="$PROJECT_DIR$/../BCIT-Assignments/CST/Term2/Comp2510/Lab5/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../BCIT-Assignments/CST/Term2/Comp2510/Lab5/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/Fun/TestCommand/graph/Command.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/Fun/TestCommand/src/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/Fun/TestCommand/src/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/Fun/TestJavaFX/src/MenuExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/203b5886-9844-45af-ad56-c420f83a41b6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/203b5886-9844-45af-ad56-c420f83a41b6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/Fun/TestJavaFX/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Fun/TestJavaFX/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/Fun/TestJavaFX/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Fun/TestJavaFX/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +149,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "sql.code.style.group",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "ts.external.directory.path": "E:\\JetBrains\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true",
     "应用程序.BaseballStats.executor": "Run",
