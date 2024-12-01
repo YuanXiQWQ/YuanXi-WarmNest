@@ -1,0 +1,37 @@
+public class OrderPizza {
+    // 定义一个简单工厂对象
+    SimpleFactory simpleFactory;
+    Pizza pizza = null;
+
+    // 构造器
+    public OrderPizza(SimpleFactory simpleFactory){
+        setFactory(simpleFactory);
+    }
+
+    public void setFactory(SimpleFactory simpleFactory)
+    {
+        // 用户输入的种类
+        String orderType = "";
+
+        // 设置简单工厂 对象
+        this.simpleFactory = simpleFactory;
+
+        do
+        {
+            orderType = getType();
+            this.simpleFactory.createPizza(orderType);
+
+            // 输出Pizza
+            if(pizza != null)
+            {
+                pizza.prepare();
+                pizza.bake();
+                pizza.cut();
+                pizza.box();
+            } else {
+                System.out.println("订购披萨失败");
+                break;
+            }
+        } while(true);
+    }
+}

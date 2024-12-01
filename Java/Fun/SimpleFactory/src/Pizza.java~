@@ -1,0 +1,20 @@
+public abstract class Pizza {
+    public void prepare()
+    {
+    }
+
+    public void bake()
+    {
+        System.out.println("烘烤");
+    }
+
+    public void cut()
+    {
+        System.out.println("切片");
+    }
+
+    public void box()
+    {
+        System.out.println("包装");
+    }
+}
