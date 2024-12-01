@@ -1,0 +1,20 @@
+public class RobotDecorator implements Robot {
+    private final Robot robot;
+
+    public RobotDecorator(final Robot robot)
+    {
+        this.robot = robot;
+    }
+
+    @Override
+    public void doSomething()
+    {
+        robot.doSomething();
+    }
+
+    public void doMoreThing()
+    {
+        robot.doSomething();
+        System.out.println("篮球");
+    }
+}
